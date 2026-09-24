@@ -2,6 +2,18 @@
 
 The scripts, data files, and code examples of the book **Oracle APEX 26.1: The Complete Guide** by Vinish Kapoor.
 
+<a href="https://vinish.dev/oracle-apex-26-1-book-the-complete-guide"><img src="https://vinish.dev/wp-content/uploads/2026/09/apex-book-cover.webp" alt="Cover of Oracle APEX 26.1: The Complete Guide by Vinish Kapoor" width="220" align="right"></a>
+
+## Get the Book
+
+- 📘 **About the book, sample pages, and contents:** [vinish.dev/oracle-apex-26-1-book-the-complete-guide](https://vinish.dev/oracle-apex-26-1-book-the-complete-guide)
+- 📖 **Paperback** on Amazon: [amazon.com/dp/B0HKWGLMXD](https://www.amazon.com/dp/B0HKWGLMXD)
+- 📱 **Kindle edition** on Amazon: [amazon.com/dp/B0HKW571TW](https://www.amazon.com/dp/B0HKW571TW)
+
+828 pages, 48 chapters, from installation to production: pages and reports, forms and grids, security, workflows, REST services with ORDS, and generative AI.
+
+<br clear="right">
+
 Throughout the book you build **Orbit Sales**, an order management application for the fictional outdoor-gear retailer Orbit Outfitters. This repository contains everything you need to follow along.
 
 Download it with **Code ▸ Download ZIP**, or clone it:
