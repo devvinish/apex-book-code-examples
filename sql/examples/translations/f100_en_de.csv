@@ -1,0 +1,541 @@
+name,source,target,source language,target language,comment
+DELIVERY_CALENDAR,Delivery Calendar,Lieferkalender,en,de,
+SHIPPED_ON,Shipped On,Versanddatum,en,de,
+ROLES,Roles,Roles,en,de,
+TOTAL_ROWS,Total Rows,Total Rows,en,de,
+EXPERIENCE,Experience,Experience,en,de,
+THE_SELECTED_ORDERS_HAVE_BEEN_APPROVED,The selected orders have been approved.,Die ausgewählten Bestellungen wurden genehmigt.,en,de,
+CREATED_ON,Created On,Angelegt am,en,de,
+PRODUCT_CATALOG,Product Catalog,Produktkatalog,en,de,
+QUANTITY,Quantity,Menge,en,de,
+END_USER_THEME_PREFERENCE,End User Theme Preference,End User Theme Preference,en,de,
+ADD_CHART_PAGE,Add Chart Page,Add Chart Page,en,de,
+USERNAME,Username,Benutzername,en,de,
+ABOUT_THIS_PAGE,About This Page,About This Page,en,de,
+ALL_STORES,All Stores,Alle Filialen,en,de,
+OPENED_ON,Opened On,Opened On,en,de,
+PAGE_NAME,Page Name,Page Name,en,de,
+COL007,Col007,Col007,en,de,
+SEARCH,Search,Suche,en,de,
+ALL_CUSTOMERS,All Customers,Alle Kunden,en,de,
+COL005,Col005,Col005,en,de,
+ORDERS,Orders,Bestellungen,en,de,
+ORDER_DATE,Order Date,Bestelldatum,en,de,
+FILTERS,Filters,Filters,en,de,
+ORDER_AT_MOST_500_UNITS_OF_A_PRODUCT_PER_LINE,Order at most 500 units of a product per line.,Order at most 500 units of a product per line.,en,de,
+PLEASE_PROVIDE_FEEDBACK_OR_YOUR_EXPERIENCE,Please provide feedback or your experience.,Please provide feedback or your experience.,en,de,
+COL008,Col008,Col008,en,de,
+APPROVE_THE_SELECTED_ORDERS,Approve the selected orders?,Die ausgewählten Bestellungen genehmigen?,en,de,
+PLEASE_ENTER_YOUR_SEARCH_TERM,Please enter your search term.,Please enter your search term.,en,de,
+ACL_INFORMATION,ACL Information,ACL Information,en,de,
+HELP_TEXT_11,"<p>Use this form to enter users, their email address and set their access level. 
+The settings defined under <em>Configure Access Control</em> will determine whether the username must be their email address or can be any alphanumeric entry.</p>
+<p>This application supports the following 3 access levels: Reader, Contributor, and Administrator.</p>
+<ul>
+  <li><strong>Readers</strong> have read-only access to all information and can also view reports.</li>
+  <li><strong>Contributors</strong> can create, edit and delete information and view reports.</li>
+  <li><strong>Administrators</strong>, in addition to Contributors capability, can also perform configuration of the application by accessing the Administration section of the application.</li>
+</ul>
+<p>When editing an existing user you can lock their account which will prevent them from accessing the application.</p>
+<p><em><strong>Note:</strong>   If using Oracle APEX accounts then users entered here must also be defined as end users by a Workspace Administrator, who can also set their password.</em></p>","<p>Use this form to enter users, their email address and set their access level. 
+The settings defined under <em>Configure Access Control</em> will determine whether the username must be their email address or can be any alphanumeric entry.</p>
+<p>This application supports the following 3 access levels: Reader, Contributor, and Administrator.</p>
+<ul>
+  <li><strong>Readers</strong> have read-only access to all information and can also view reports.</li>
+  <li><strong>Contributors</strong> can create, edit and delete information and view reports.</li>
+  <li><strong>Administrators</strong>, in addition to Contributors capability, can also perform configuration of the application by accessing the Administration section of the application.</li>
+</ul>
+<p>When editing an existing user you can lock their account which will prevent them from accessing the application.</p>
+<p><em><strong>Note:</strong>   If using Oracle APEX accounts then users entered here must also be defined as end users by a Workspace Administrator, who can also set their password.</em></p>",en,de,
+INLINE_HELP_TEXT_2,"Enter usernames separated by commas, semicolons, or whitespace. Existing or duplicate usernames will automatically be ignored.","Enter usernames separated by commas, semicolons, or whitespace. Existing or duplicate usernames will automatically be ignored.",en,de,
+EMAIL,Email,Email,en,de,
+YOU_CANNOT_REMOVE_ADMINISTRATOR_ROLE_FROM_YOURSELF,You cannot remove administrator role from yourself.,You cannot remove administrator role from yourself.,en,de,
+INLINE_HELP_TEXT_1,Choose <strong>No</strong> if all users are defined in the access control list. Choose <strong>Yes</strong> if authenticated users not in the access control list may also use this application.,Choose <strong>No</strong> if all users are defined in the access control list. Choose <strong>Yes</strong> if authenticated users not in the access control list may also use this application.,en,de,
+AUTOMATIONS_LOG,Automations Log,Automations Log,en,de,
+AUTOMATION_EXECUTION,Automation Execution,Automation Execution,en,de,
+VALUE,Value,Value,en,de,
+ENTER_USERNAMES_HERE,Enter usernames here,Enter usernames here,en,de,
+TOP_USERS,Top Users,Top Users,en,de,
+KEY_FIGURES,Key Figures,Key Figures,en,de,
+DISCOUNT_,Discount %,Rabatt %,en,de,
+COUNTRY,Country,Country,en,de,
+ORDER_ID_1,Order ID,Order ID,en,de,
+VIEW_CUSTOMER,View Customer,Kunde anzeigen,en,de,
+ERRORS,Errors,Errors,en,de,
+STAR_RATING,Star Rating,Star Rating,en,de,
+RESPONSE,Response,Response,en,de,
+EXPORT_PDF,Export PDF,PDF exportieren,en,de,
+TEXTAREA,Textarea,Textarea,en,de,
+CLOSE,Close,Close,en,de,
+LAST_NAME,Last Name,Last Name,en,de,
+COLUMN_1,Column 1,Column 1,en,de,
+USER_INTERFACE,User Interface,User Interface,en,de,
+LOADED_FILE,Loaded File,Loaded File,en,de,
+DESCRIPTION,Description,Description,en,de,
+HOURLY_PAGE_EVENTS,Hourly Page Events,Hourly Page Events,en,de,
+WEIGHT_KG_1,Weight (kg),Weight (kg),en,de,
+DELETE,Delete,Löschen,en,de,
+MARKDOWN_EDITOR,Markdown Editor,Markdown Editor,en,de,
+CUSTOMER_TYPE,Customer Type,Kundentyp,en,de,
+REORDER_LEVEL,Reorder Level,Reorder Level,en,de,
+COL010,Col010,Col010,en,de,
+YES,Yes,Yes,en,de,
+REFRESH_TOTAL,Refresh Total,Summe aktualisieren,en,de,
+REPORT,Report,Report,en,de,
+PRODUCT_IMAGE,Product Image,Product Image,en,de,
+PAGE_EVENTS,Page Events,Page Events,en,de,
+JOB_TITLE,Job Title,Job Title,en,de,
+ORDER_P10ORDERNUMBER,Order %P10_ORDER_NUMBER,Bestellung %P10_ORDER_NUMBER,en,de,
+CASCADING_LISTS,Cascading Lists,Cascading Lists,en,de,
+ORDER,Order,Bestellung,en,de,
+PRODUCT_ID,Product ID,Product ID,en,de,
+NEXT,Next,Next,en,de,
+ANY_AUTHENTICATED_USER_MAY_ACCESS_THIS_APPLICATION,Any authenticated user may access this application,Any authenticated user may access this application,en,de,
+BUTTON_BAR,Button Bar,Button Bar,en,de,
+LATITUDE,Latitude,Latitude,en,de,
+COL001,Col001,Col001,en,de,
+STORE_MAP,Store Map,Filialkarte,en,de,
+EMAIL_ADDRESSES,Email Addresses,Email Addresses,en,de,
+COL009,Col009,Col009,en,de,
+MANAGE_USER_ACCESS,Manage User Access,Manage User Access,en,de,
+ORDER_ID,Order Id,Order Id,en,de,
+CLEAR,Clear,Clear,en,de,
+TOP_CUSTOMERS,Top Customers,Top-Kunden,en,de,
+COMPONENT_NAME,Component Name,Component Name,en,de,
+INSTALL_APP,Install App,App installieren,en,de,
+SEARCH_RESULTS,Search Results,Search Results,en,de,
+LATEST_ACTIVITY,Latest Activity,Latest Activity,en,de,
+CITY_LOOKUP,City Lookup,Ortssuche,en,de,
+FEEDBACK,Feedback,Feedback,en,de,
+ORDER_P10ORDERNUMBER_HAS_BEEN_CANCELLED,Order %P10_ORDER_NUMBER has been cancelled.,Order %P10_ORDER_NUMBER has been cancelled.,en,de,
+CHOICE_ITEMS,Choice Items,Choice Items,en,de,
+CUSTOMER,Customer,Kunde,en,de,
+SCHEDULED,Scheduled,Scheduled,en,de,
+FORM_ON_FEEDBACK,Form on Feedback,Form on Feedback,en,de,
+ACTIVITY_BY_HOUR,Activity by Hour,Activity by Hour,en,de,
+P,p,p,en,de,
+KEEP_ORDER,Keep Order,Bestellung behalten,en,de,
+IS_ACTIVE,Is Active,Is Active,en,de,
+SIGN_IN,Sign In,Anmelden,en,de,
+POSITIVE,Positive,Positive,en,de,
+LOAD_DATA,Load Data,Load Data,en,de,
+ABOUT_PAGE,About Page,Info-Seite,en,de,
+CREDIT_LIMIT,Credit Limit,Credit Limit,en,de,
+CHECKBOX,Checkbox,Checkbox,en,de,
+SHIPPED,Shipped,Versandt,en,de,
+ELAPSED,Elapsed,Elapsed,en,de,
+RECENT_ERRORS,Recent Errors,Recent Errors,en,de,
+STATE_OR_PROVINCE,State Or Province,State Or Province,en,de,
+TOTAL_SALES,Total Sales,Gesamtumsatz,en,de,
+AUTOMATION,Automation,Automation,en,de,
+CURRENT_STATUS,Current Status,Current Status,en,de,
+ORBIT_OUTFITTERS_WEBSITE,Orbit Outfitters Website,Website von Orbit Outfitters,en,de,
+MESSAGES,Messages,Messages,en,de,
+ADMINISTRATION,Administration,Verwaltung,en,de,
+WELCOME,Welcome,Willkommen,en,de,
+AWAITING_APPROVAL,Awaiting approval,Wartet auf Genehmigung,en,de,
+MESSAGE_TYPE,Message Type,Message Type,en,de,
+ROLE_ID,Role Id,Role Id,en,de,
+MIN_ELAPSED,Min Elapsed,Min Elapsed,en,de,
+GLOBAL_PAGE,Global Page,Global Page,en,de,
+CANCEL,Cancel,Abbrechen,en,de,
+ORDER_LINES,Order Lines,Bestellpositionen,en,de,
+ADDRESS_LINE1,Address Line1,Address Line1,en,de,
+PAGE,Page,Page,en,de,
+QR_CODE,QR Code,QR Code,en,de,
+ALL_PRODUCTS,All Products,Alle Produkte,en,de,
+THEME_STYLE_SELECTION,Theme Style Selection,Theme Style Selection,en,de,
+VIEW_DETAILS,View Details,View Details,en,de,
+ORDER_BY,Order By,Order By,en,de,
+VALID_USERS_EXIST_PAGE_INFO,Valid Users Exist - Page Info,Valid Users Exist - Page Info,en,de,
+CONFIGURE_ACCESS_CONTROL,Configure Access Control,Configure Access Control,en,de,
+ENDED,Ended,Ended,en,de,
+COST_PRICE,Cost Price,Cost Price,en,de,
+LAUNCH_DATE,Launch Date,Launch Date,en,de,
+CREATE,Create,Anlegen,en,de,
+ADD_REPORT_PAGE,Add Report Page,Add Report Page,en,de,
+FEATURE,Feature,Feature,en,de,
+COMPANY_NAME,Company Name,Company Name,en,de,
+TIMEFRAME,Timeframe,Timeframe,en,de,
+CUSTOMER_SUMMARY,Customer Summary,Kundenprofil,en,de,
+USER_FEEDBACK,User Feedback,User Feedback,en,de,
+LAST_ORDER,Last Order,Letzte Bestellung,en,de,
+PAGE_VIEWS,Page Views,Page Views,en,de,
+NO,No,No,en,de,
+MEDIAN_ELAPSED,Median Elapsed,Median Elapsed,en,de,
+FEEDBACK_COUNT,Feedback Count,Feedback Count,en,de,
+ID,ID,ID,en,de,
+ROWS_FETCHED,Rows Fetched,Rows Fetched,en,de,
+SKU,Sku,Sku,en,de,
+RADIO_GROUP,Radio Group,Radio Group,en,de,
+PRIMARY_KEY_VALUE,Primary Key Value,Primary Key Value,en,de,
+EXPAND_ALL,Expand All,Expand All,en,de,
+PERCENT_GRAPH,Percent Graph,Percent Graph,en,de,
+EXCEPTIONS,Exceptions,Exceptions,en,de,
+HELP_TEXT_13,"All application help text can be accessed from this page. The links in the ""Documentation"" region give a much more in-depth explanation of the application's features and functionality.","All application help text can be accessed from this page. The links in the ""Documentation"" region give a much more in-depth explanation of the application's features and functionality.",en,de,
+MAX_ELAPSED,Max Elapsed,Max Elapsed,en,de,
+LONGITUDE,Longitude,Longitude,en,de,
+SUBMIT_ORDER,Submit Order,Bestellung einreichen,en,de,
+LINE_TOTAL,Line Total,Positionssumme,en,de,
+PRODUCT_NAME,Product Name,Product Name,en,de,
+AVG_ELAPSED,Avg Elapsed,Avg Elapsed,en,de,
+REMEMBER_USERNAME,Remember username,Benutzernamen merken,en,de,
+USERNAMES,Usernames,Usernames,en,de,
+ORDER_DOCUMENTS,Order Documents,Bestelldokumente,en,de,
+NO_ACTION,No Action,No Action,en,de,
+CHOOSE_CUSTOMER,Choose Customer,Choose Customer,en,de,
+ALL_ORDERS,All Orders,Alle Bestellungen,en,de,
+NO_VALID_USERS_EXIST_PAGE_INFO,No Valid Users Exist - Page Info,No Valid Users Exist - Page Info,en,de,
+FILED,Filed,Filed,en,de,
+RECENT_ORDERS,Recent Orders,Neueste Bestellungen,en,de,
+HELP_TEXT_3,"<p>Configuration settings allow you to make specific functionality either available (enabled) or unavailable (disabled) to end users.</p>
+<p>If a specific function is not 100% ready, or needs to be temporarily removed, click <strong>Disabled</strong>. 
+Once it should be made available, simply click <strong>Enabled</strong>.</p>
+<p><em><strong>Note:</strong> Changes made here will not be reflected for individual end users currently running the application. Once the end user signs out and then signs back in the revised feature settings will be invoked.</em></p>","<p>Configuration settings allow you to make specific functionality either available (enabled) or unavailable (disabled) to end users.</p>
+<p>If a specific function is not 100% ready, or needs to be temporarily removed, click <strong>Disabled</strong>. 
+Once it should be made available, simply click <strong>Enabled</strong>.</p>
+<p><em><strong>Note:</strong> Changes made here will not be reflected for individual end users currently running the application. Once the end user signs out and then signs back in the revised feature settings will be invoked.</em></p>",en,de,
+HELP_TEXT_7,"<p>This page provides an interactive report of the page performance and popularity. The report is ordered by <strong>Weighted Performance</strong> which is calculated by multiplying the Median Elapsed time and number of Page Views.</p>
+<p>Select the reporting timeframe (Default = 1 day) at the top of the page as necessary.<br>
+Click on the column headings to sort and filter data, or click on the <strong>Actions</strong> button to customize column display and many additional advanced features. Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>","<p>This page provides an interactive report of the page performance and popularity. The report is ordered by <strong>Weighted Performance</strong> which is calculated by multiplying the Median Elapsed time and number of Page Views.</p>
+<p>Select the reporting timeframe (Default = 1 day) at the top of the page as necessary.<br>
+Click on the column headings to sort and filter data, or click on the <strong>Actions</strong> button to customize column display and many additional advanced features. Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>",en,de,
+FORM_ITEMS_REGION,Form Items Region,Form Items Region,en,de,
+RESET,Reset,Reset,en,de,
+BREADCRUMB,Breadcrumb,Breadcrumb,en,de,
+CITY,City,Stadt,en,de,
+NUMBER_FIELD,Number Field,Number Field,en,de,
+SWITCH,Switch,Switch,en,de,
+WAREHOUSE,Warehouse,Lager,en,de,
+APPLICATION_ERROR_LOG,Application Error Log,Application Error Log,en,de,
+MODE,Mode,Mode,en,de,
+HELP_TEXT_1,"<p>This page summarizes one customer: their details, their orders, and the products they buy.</p>
+<p>Choose another customer from the <strong>Customer</strong> list to switch.</p>","<p>This page summarizes one customer: their details, their orders, and the products they buy.</p>
+<p>Choose another customer from the <strong>Customer</strong> list to switch.</p>",en,de,
+STARTED,Started,Started,en,de,
+SUPPLIER,Supplier,Supplier,en,de,
+SALES_BY_CHANNEL,Sales by Channel,Sales by Channel,en,de,
+RATING_ICON,RATING ICON,RATING ICON,en,de,
+NO_RESULTS_FOR_YOUR_SEARCH_TERM,No results for your search term.,No results for your search term.,en,de,
+ROLE_NAME,Role Name,Role Name,en,de,
+CATALOG,Catalog,Katalog,en,de,
+APPLICATION_SESSIONS,Application Sessions,Application Sessions,en,de,
+ORBIT_SALES_LOG_IN,Orbit Sales - Log In,Orbit Sales – Anmeldung,en,de,
+REGIONS,Regions,Regions,en,de,
+USER_COUNT,User Count,User Count,en,de,
+ORDER_NUMBER,Order Number,Bestellnummer,en,de,
+ACTIVITY_REPORTS,Activity Reports,Activity Reports,en,de,
+LIST_MANAGER,List Manager,List Manager,en,de,
+CUSTOMERS,Customers,Kunden,en,de,
+MOSTRECENT,Most_Recent,Most_Recent,en,de,
+INSUFFICIENT_PRIVILEGES_USER_IS_NOT_A_CONTRIBUTOR,"Insufficient privileges, user is not a Contributor","Insufficient privileges, user is not a Contributor",en,de,
+CREATE_ORDER,Create Order,Bestellung anlegen,en,de,
+REGION,Region,Region,en,de,
+CLOSED,Closed,Closed,en,de,
+PREVIEW,Preview,Preview,en,de,
+COL003,Col003,Col003,en,de,
+WEIGHT_KG,Weight Kg,Weight Kg,en,de,
+USERS_ADDED,User(s) added.,User(s) added.,en,de,
+ALLOW_END_USERS_TO_CHOOSE_THEME_STYLE,Allow End Users to choose Theme Style,Allow End Users to choose Theme Style,en,de,
+LAYERS,Layers,Layers,en,de,
+STORE,Store,Filiale,en,de,
+UPDATED,Updated,Updated,en,de,
+DESKTOP_THEME_STYLE,Desktop Theme Style,Desktop Theme Style,en,de,
+P10044VALIDCOUNT_USERS_TO_ADD,%P10044_VALID_COUNT Users to Add,%P10044_VALID_COUNT Users to Add,en,de,
+FEEDBACK_STATUS,Feedback Status,Feedback Status,en,de,
+ACTIVITY_DASHBOARD,Activity Dashboard,Activity Dashboard,en,de,
+DATA_SOURCE,Data Source,Data Source,en,de,
+HELP_TEXT_4,"<p>Select the default color scheme used to display the application.</p>
+<p>If <strong>Allow End Users to choose Theme Style</strong> is checked, then each end user can select from the available theme styles by clicking the <em>Customize</em> link in the bottom left corner of the Home page.</p>","<p>Select the default color scheme used to display the application.</p>
+<p>If <strong>Allow End Users to choose Theme Style</strong> is checked, then each end user can select from the available theme styles by clicking the <em>Customize</em> link in the bottom left corner of the Home page.</p>",en,de,
+CUSTOMER_NAME,Customer Name,Customer Name,en,de,
+PARTIAL_PAGE_VIEWS,Partial Page Views,Partial Page Views,en,de,
+O,o,o,en,de,
+DASHBOARD,Dashboard,Dashboard,en,de,
+HIDDEN_ITEMS,Hidden Items,Hidden Items,en,de,
+PRICE,Price,Preis,en,de,
+FILE_UPLOAD,File Upload,File Upload,en,de,
+RECALCULATE_TOTALS,Recalculate Totals,Summen neu berechnen,en,de,
+HELP_TEXT_10,"<p>This page shows a report of the application users and the access level granted.</p>
+<p>Click on the column headings to sort and filter data, or click on the <strong>Actions</strong> button to customize column display and many additional advanced features.<br>
+Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>
+<p>Click the edit icon (yellow pencil) to edit the user details and access level, or to delete the user.</p>
+<p>Click <strong>Add User</strong>, at the top of the report, to add a new user and their access level.</p>","<p>This page shows a report of the application users and the access level granted.</p>
+<p>Click on the column headings to sort and filter data, or click on the <strong>Actions</strong> button to customize column display and many additional advanced features.<br>
+Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>
+<p>Click the edit icon (yellow pencil) to edit the user details and access level, or to delete the user.</p>
+<p>Click <strong>Add User</strong>, at the top of the report, to add a new user and their access level.</p>",en,de,
+ACCESS_CONTROL_ACTIONS,Access Control Actions,Access Control Actions,en,de,
+UNITS,Units,Units,en,de,
+USER,User,User,en,de,
+INVALID_FILE_TYPE_SUPPORTED_FILE_TYPES_CSV_TXT,"Invalid file type. Supported file types CSV, TXT.","Invalid file type. Supported file types CSV, TXT.",en,de,
+FLOOR_AREA_SQ_FT,Floor Area (sq ft),Floor Area (sq ft),en,de,
+HELP_TEXT_8,"<p>This page provides an interactive report of the most recent page views.</p>
+<p>Select the reporting timeframe (Default = 1 day) at the top of the page as necessary.<br>
+Click on the column headings to sort and filter data, or click on the <strong>Actions</strong> button to customize column display and many additional advanced features. Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>","<p>This page provides an interactive report of the most recent page views.</p>
+<p>Select the reporting timeframe (Default = 1 day) at the top of the page as necessary.<br>
+Click on the column headings to sort and filter data, or click on the <strong>Actions</strong> button to customize column display and many additional advanced features. Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>",en,de,
+SELECT_MANY,Select Many,Select Many,en,de,
+DATE_PICKER,Date Picker,Date Picker,en,de,
+HELP,Help,Help,en,de,
+USERNAME_FORMAT,Username Format,Username Format,en,de,
+ACTION_PROCESSED,Action Processed.,Action Processed.,en,de,
+MORE,More,Mehr,en,de,
+IMAGE_UPLOAD,Image Upload,Image Upload,en,de,
+DISTINCT_USERS,Distinct Users,Distinct Users,en,de,
+CATEGORY,Category,Kategorie,en,de,
+CUSTOMER_OVERVIEW,Customer Overview,Kundenübersicht,en,de,
+APPROVE_SELECTED,Approve Selected,Auswahl genehmigen,en,de,
+APPROVALS,Approvals,Genehmigungen,en,de,
+FILED_BY,Filed By,Filed By,en,de,
+PAGE_HELP,Page Help,Seitenhilfe,en,de,
+LAST_ACTIVITY,Last Activity,Last Activity,en,de,
+POPULATION,Population,Population,en,de,
+HELP_TEXT_9,"<p>This page provides an interactive report of the automations log.</p>
+<p>Review logged information about previous automation executions. The log contains start and end timestamps as well as details about processed rows (successful and with errors). Drill down into Messages to see individual messages for processed rows.</p>
+","<p>This page provides an interactive report of the automations log.</p>
+<p>Review logged information about previous automation executions. The log contains start and end timestamps as well as details about processed rows (successful and with errors). Drill down into Messages to see individual messages for processed rows.</p>
+",en,de,
+PASSWORD,Password,Passwort,en,de,
+SELECT_LIST,Select List,Select List,en,de,
+PRODUCTS,Products,Produkte,en,de,
+PREVIOUS,Previous,Previous,en,de,
+ORDER_P10ORDERNUMBER_HAS_BEEN_SUBMITTED,Order %P10_ORDER_NUMBER has been submitted.,Order %P10_ORDER_NUMBER has been submitted.,en,de,
+PROCESS_SUCCESS_MESSAGE,Order totals are being recalculated in the background.,Order totals are being recalculated in the background.,en,de,
+ACCESS_CONTROL_SETTINGS_SAVED,Access Control settings saved.,Access Control settings saved.,en,de,
+CONTEXT,Context,Context,en,de,
+P11SAVEDPRODUCT_HAS_BEEN_SAVED,%P11_SAVED_PRODUCT has been saved.,%P11_SAVED_PRODUCT has been saved.,en,de,
+FORM_ON_MANAGE_USER_ACCESS,Form on Manage User Access,Form on Manage User Access,en,de,
+PHONE,Phone,Phone,en,de,
+SHUTTLE,Shuttle,Shuttle,en,de,
+SEARCH_1,Search...,Search...,en,de,
+CHANNEL,Channel,Kanal,en,de,
+HELP_TEXT_6,"<p>This page provides an interactive report of all unexpected errors logged by this application.</p>
+<p>Click on the column headings to sort and filter data, or click on the <strong>Actions</strong> button to customize column display and many additional advanced features. Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>","<p>This page provides an interactive report of all unexpected errors logged by this application.</p>
+<p>Click on the column headings to sort and filter data, or click on the <strong>Actions</strong> button to customize column display and many additional advanced features. Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>",en,de,
+RICH_TEXT_EDITOR,Rich Text Editor,Rich Text Editor,en,de,
+HELP_TEXT_12,"<p>Feedback can be entered by end users from any normal page within the application.</p>
+<p>This report shows the feedback entered, any response enter by administrators, and the status of the feedback.</p>
+<p>Click the edit icon (yellow pencil) to enter a response or update the feedback status.</p>
+<p><em><strong>Note:</strong> If feedback recipients have been defined then feedback submissions will also be emailed to the email addresses in the feedback recipients list.</em></p>","<p>Feedback can be entered by end users from any normal page within the application.</p>
+<p>This report shows the feedback entered, any response enter by administrators, and the status of the feedback.</p>
+<p>Click the edit icon (yellow pencil) to enter a response or update the feedback status.</p>
+<p><em><strong>Note:</strong> If feedback recipients have been defined then feedback submissions will also be emailed to the email addresses in the feedback recipients list.</em></p>",en,de,
+MOST_ACTIVE_PAGES,Most Active Pages,Most Active Pages,en,de,
+NAME,Name,Name,en,de,
+CANCEL_ORDER_P10ORDERNUMBER_THIS_CANNOT_BE_UNDONE,Cancel order %P10_ORDER_NUMBER? This cannot be undone.,Cancel order %P10_ORDER_NUMBER? This cannot be undone.,en,de,
+HELP_TEXT_14,"<p>Select the appropriate choice for any authenticated users.<br> 
+Selecting <strong>No</strong> makes the application more secure as only specified users can access the application. 
+However, if your application has a large user community then maintaining users may be onerous, and you may prefer to choose <strong>Yes</strong> and only enter application Administrators, and possibly Contributors.<br>
+If you select <strong>Yes</strong> then you must also select how users not included in the users list are treated.</p>
+<p>Select between requiring email addresses and any alphanumeric value for Usernames.<br>
+Generally, you should set this setting to <strong>E-mail Address</strong> if your application uses (or will be configured to use) a centralized authentication scheme such as Oracle Access Manager, or SSO.</p>
+<p><em><strong>Note:</strong> This application supports the following 3 access levels: Reader, Contributor, and Administrator.
+<ul>
+  <li><strong>Readers</strong> have read-only access to all information and can also view reports.</li>
+  <li><strong>Contributors</strong> can create, edit and delete information and view reports.</li>
+  <li><strong>Administrators</strong>, in addition to Contributors capability, can also perform configuration of the application by accessing the Administration section of the application.</li>
+</ul>
+</em></p>","<p>Select the appropriate choice for any authenticated users.<br> 
+Selecting <strong>No</strong> makes the application more secure as only specified users can access the application. 
+However, if your application has a large user community then maintaining users may be onerous, and you may prefer to choose <strong>Yes</strong> and only enter application Administrators, and possibly Contributors.<br>
+If you select <strong>Yes</strong> then you must also select how users not included in the users list are treated.</p>
+<p>Select between requiring email addresses and any alphanumeric value for Usernames.<br>
+Generally, you should set this setting to <strong>E-mail Address</strong> if your application uses (or will be configured to use) a centralized authentication scheme such as Oracle Access Manager, or SSO.</p>
+<p><em><strong>Note:</strong> This application supports the following 3 access levels: Reader, Contributor, and Administrator.
+<ul>
+  <li><strong>Readers</strong> have read-only access to all information and can also view reports.</li>
+  <li><strong>Contributors</strong> can create, edit and delete information and view reports.</li>
+  <li><strong>Administrators</strong>, in addition to Contributors capability, can also perform configuration of the application by accessing the Administration section of the application.</li>
+</ul>
+</em></p>",en,de,
+STORES,Stores,Filialen,en,de,
+CONFIGURATION_OPTIONS,Configuration Options,Configuration Options,en,de,
+ROWSELECTOR,ROW_SELECTOR,ROW_SELECTOR,en,de,
+HELP_TEXT_5,"<p>Use this report and chart to see the users with the most page views for the specified timeframe.</p>
+<p>Select the reporting timeframe (Default = 1 day) and choose between the report and chart icons at the top of the page.</p>
+<p>For the interactive report, use the search field, or select the <strong>User</strong> column heading, to select a specific user. You can perform numerous functions by clicking the <strong>Actions</strong> button, such as columns displayed / hidden, rows per page, filter, and so forth. Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>","<p>Use this report and chart to see the users with the most page views for the specified timeframe.</p>
+<p>Select the reporting timeframe (Default = 1 day) and choose between the report and chart icons at the top of the page.</p>
+<p>For the interactive report, use the search field, or select the <strong>User</strong> column heading, to select a specific user. You can perform numerous functions by clicking the <strong>Actions</strong> button, such as columns displayed / hidden, rows per page, filter, and so forth. Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>",en,de,
+USER_AGENT,User Agent,User Agent,en,de,
+FULL_PAGE_VIEWS,Full Page Views,Full Page Views,en,de,
+ERROR_MESSAGE,"Insufficient privileges, user is not an Administrator","Insufficient privileges, user is not an Administrator",en,de,
+THE_DEFAULT_THEME_STYLE_APPLIES_TO_ALL_USERS,The default Theme Style applies to all users.,The default Theme Style applies to all users.,en,de,
+CUSTOMER_DETAILS,Customer Details,Customer Details,en,de,
+PRODUCT,Product,Produkt,en,de,
+ORBIT_OUTFITTERS,Orbit Outfitters,Orbit Outfitters,en,de,
+ACTIVE,Active,Active,en,de,
+MAX_ROW_COUNT_MESSAGE,The maximum row count for this report is %MAX_ROW_COUNT rows.  Please apply a filter to reduce the number of records in your query.,The maximum row count for this report is %MAX_ROW_COUNT rows.  Please apply a filter to reduce the number of records in your query.,en,de,
+CONFIGURE_APPEARANCE,Configure Appearance,Configure Appearance,en,de,
+CONFIGURATION,Configuration,Configuration,en,de,
+SPENT,Spent,Spent,en,de,
+SHORTCUT,"<p class=""orbit-contact"">Questions about customers or orders? Write to <a href=""mailto:%G_SUPPORT_EMAIL"">%G_SUPPORT_EMAIL</a>.</p>","<p class=""orbit-contact"">Questions about customers or orders? Write to <a href=""mailto:%G_SUPPORT_EMAIL"">%G_SUPPORT_EMAIL</a>.</p>",en,de,
+POPUP_LOV,Popup LOV,Popup LOV,en,de,
+STORES_AND_CUSTOMERS,Stores and Customers,Stores and Customers,en,de,
+NO_DATA_FOUND,No data found.,No data found.,en,de,
+TOP_USERS_CHART,Top Users Chart,Top Users Chart,en,de,
+SUBMIT_FEEDBACK,Submit Feedback,Submit Feedback,en,de,
+COLOR_PICKER,Color Picker,Color Picker,en,de,
+LABEL,Label,Label,en,de,
+DOWNLOAD_IMAGE,Download Image,Download Image,en,de,
+CUSTOMER_ID,Customer ID,Customer ID,en,de,
+ORBIT_SALES,Orbit Sales,Orbit Sales,en,de,
+CUSTOMER_P19CUSTOMERNAME,Customer: %P19_CUSTOMER_NAME,Kunde: %P19_CUSTOMER_NAME,en,de,
+UPDATED_ON,Updated On,Geändert am,en,de,
+ERR_TIME,Err Time,Err Time,en,de,
+ERROR_MESSAGE_1,"You are not authorized to view this application, either because you have not been granted access, or your account has been locked. Please contact the application administrator.","You are not authorized to view this application, either because you have not been granted access, or your account has been locked. Please contact the application administrator.",en,de,
+INLINE_HELP_TEXT,"If checked, end users may choose their own Theme Style using the Customize link.","If checked, end users may choose their own Theme Style using the Customize link.",en,de,
+ACKNOWLEDGED,Acknowledged,Acknowledged,en,de,
+STATUS,Status,Status,en,de,
+NOTES,Notes,Notizen,en,de,
+SALES,Sales,Vertrieb,en,de,
+TEXT_FIELD_WITH_AUTOCOMPLETE,Text Field with autocomplete,Text Field with autocomplete,en,de,
+NEUTRAL,Neutral,Neutral,en,de,
+STATE,State,State,en,de,
+ADD_MULTIPLE_USERS,Add Multiple Users,Add Multiple Users,en,de,
+SALES_DASHBOARD,Sales Dashboard,Vertriebs-Dashboard,en,de,
+DEPARTMENT,Department,Department,en,de,
+CANCEL_ORDER,Cancel Order,Bestellung stornieren,en,de,
+VIEW_AS,View As,View As,en,de,
+USERS,Users,Users,en,de,
+APPLICATION_APPEARANCE_SETTINGS_SAVED,Application Appearance Settings Saved.,Application Appearance Settings Saved.,en,de,
+IMAGE_UPDATED_ON,Image Updated On,Image Updated On,en,de,
+REQUIRED_BY,Required By,Benötigt bis,en,de,
+RATING,Rating,Rating,en,de,
+HOME,Home,Startseite,en,de,
+POSTAL_CODE,Postal Code,Postal Code,en,de,
+TEXT_ITEMS,Text Items,Text Items,en,de,
+THE_REQUIRED_DATE_CANNOT_BE_BEFORE_THE_ORDER_DATE,The required date cannot be before the order date.,The required date cannot be before the order date.,en,de,
+ACCESS_CONTROL_CONFIGURATION,Access Control Configuration,Access Control Configuration,en,de,
+COL002,Col002,Col002,en,de,
+EMPLOYEE_NAME,Employee Name,Employee Name,en,de,
+USER_COUNTS_REPORT,User Counts Report,User Counts Report,en,de,
+SKU_1,SKU,SKU,en,de,
+COLOR,Color,Color,en,de,
+LOYALTY_TIER,Loyalty Tier,Loyalty Tier,en,de,
+COLUMN_2,Column 2,Column 2,en,de,
+MESSAGE,Message,Message,en,de,
+MANAGE_FEEDBACK,Manage Feedback,Manage Feedback,en,de,
+PAYMENT,Payment,Zahlung,en,de,
+SALES_REP,Sales Rep,Vertriebsmitarbeiter,en,de,
+ITEM_TYPES,Item Types,Elementtypen,en,de,
+TIMESTAMP,Timestamp,Timestamp,en,de,
+LINE_NUMBER,Line Number,Line Number,en,de,
+LOG_MESSAGES,Log Messages,Log Messages,en,de,
+A_DISCOUNT_ABOVE_10_NEEDS_A_MANAGERS_APPROVAL,A discount above 10% needs a manager's approval.,A discount above 10% needs a manager's approval.,en,de,
+ORBITCONTACT,"""ORBIT_CONTACT""","""ORBIT_CONTACT""",en,de,
+IR_SEARCH,IR Search,IR Search,en,de,
+YOU_ARE_NOT_ALLOWED_TO_APPROVE_ORDERS,You are not allowed to approve orders.,You are not allowed to approve orders.,en,de,
+SUPPORTED_FORMATS_CSV_TXT,"Supported formats CSV, TXT","Supported formats CSV, TXT",en,de,
+ERROR,Error,Error,en,de,
+ADD_USER,Add User,Add User,en,de,
+ACCESS_CONTROL,Access Control,Access Control,en,de,
+COL004,Col004,Col004,en,de,
+1000,"1,000","1,000",en,de,
+PAGE_NAVIGATION,Page Navigation,Seitennavigation,en,de,
+DOWNLOAD,Download,Herunterladen,en,de,
+TEXT_ABOUT_THIS_APPLICATION_CAN_BE_PLACED_HERE,Text about this application can be placed here.,Text about this application can be placed here.,en,de,
+SALES_BY_REGION,Sales by Region,Sales by Region,en,de,
+COUNTRY_CODE,Country Code,Country Code,en,de,
+PAGE_PERFORMANCE,Page Performance,Page Performance,en,de,
+ORDER_TOTAL,Order Total,Bestellsumme,en,de,
+TIER,Tier,Stufe,en,de,
+LOCATIONS,Locations,Standorte,en,de,
+UPLOAD_A_FILE,Upload a File,Upload a File,en,de,
+ERROR_ROWS,Error Rows,Error Rows,en,de,
+ABOUT,About,Info,en,de,
+HELP_TEXT_15,"<p>When Access Control is enabled, Administrators have the ability to restrict access to certain application features for authenticated users. This application supports the following 3 roles: Reader, Contributor, and Administrator.<p>
+<ul>
+  <li><strong>Readers</strong> have read-only access to all information and can also view reports.</li>
+  <li><strong>Contributors</strong> can create,edit and delete information and view reports.</li>
+  <li><strong>Administrators</strong>,in addition to Contributors capability,can also perform configuration of the application.</li>
+</ul>","<p>When Access Control is enabled, Administrators have the ability to restrict access to certain application features for authenticated users. This application supports the following 3 roles: Reader, Contributor, and Administrator.<p>
+<ul>
+  <li><strong>Readers</strong> have read-only access to all information and can also view reports.</li>
+  <li><strong>Contributors</strong> can create,edit and delete information and view reports.</li>
+  <li><strong>Administrators</strong>,in addition to Contributors capability,can also perform configuration of the application.</li>
+</ul>",en,de,
+REASON,Reason,Reason,en,de,
+SELECT_ONE,Select One,Select One,en,de,
+UPDATED_BY,Updated By,Geändert von,en,de,
+SERIES_1,Series 1,Series 1,en,de,
+WEIGHTED_PERFORMANCE,Weighted Performance,Weighted Performance,en,de,
+DIV_IDACTIVEFACETSDIV,"<div id=""active_facets""></div>","<div id=""active_facets""></div>",en,de,
+LINE,Line,Position,en,de,
+HELP_TEXT,"<p>To find data enter a search term into the search dialog, or click on the column headings to limit the records returned.</p>
+
+<p>You can perform numerous functions by clicking the <strong>Actions</strong> button. This includes selecting the columns that are displayed / hidden and their display sequence, plus numerous data and format functions.  You can also define additional views of the data using the chart, group by, and pivot options.</p>
+
+<p>If you want to save your customizations select report, or click download to unload the data. Enter you email address and time frame under subscription to be sent the data on a regular basis.<p>
+
+<p>For additional information click Help at the bottom of the Actions menu.</p> 
+
+<p>Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>","<p>To find data enter a search term into the search dialog, or click on the column headings to limit the records returned.</p>
+
+<p>You can perform numerous functions by clicking the <strong>Actions</strong> button. This includes selecting the columns that are displayed / hidden and their display sequence, plus numerous data and format functions.  You can also define additional views of the data using the chart, group by, and pivot options.</p>
+
+<p>If you want to save your customizations select report, or click download to unload the data. Enter you email address and time frame under subscription to be sent the data on a regular basis.<p>
+
+<p>For additional information click Help at the bottom of the Actions menu.</p> 
+
+<p>Click the <strong>Reset</strong> button to reset the interactive report back to the default settings.</p>",en,de,
+TYPE,Type,Typ,en,de,
+IMPORT_PRICE_LIST,Import Price List,Preisliste importieren,en,de,
+CHECKBOX_GROUP,Checkbox Group,Checkbox Group,en,de,
+DISPLAY_ONLY,Display Only,Display Only,en,de,
+INFO_WINDOW_HTML_EXPR,"<strong>%STORE_NAME</strong><br>
+%CITY, %STATE<br>
+Opened %OPENED_ON<br>
+%FLOOR_AREA_SQFT sq ft","<strong>%STORE_NAME</strong><br>
+%CITY, %STATE<br>
+Opened %OPENED_ON<br>
+%FLOOR_AREA_SQFT sq ft",en,de,
+COLLAPSE_ALL,Collapse All,Collapse All,en,de,
+TEXT_FIELD,Text Field,Text Field,en,de,
+SIGN_OUT,Sign Out,Abmelden,en,de,
+ITEMS,Items,Positionen,en,de,
+HELP_TEXT_2,"<p>The administration page allows application owners (Administrators) to configure the application and maintain common data used across the application.
+By selecting one of the available settings, administrators can potentially change how the application is displayed and/or features available to the end users.</p>
+<p>Access to this page should be limited to Administrators only.</p>","<p>The administration page allows application owners (Administrators) to configure the application and maintain common data used across the application.
+By selecting one of the available settings, administrators can potentially change how the application is displayed and/or features available to the end users.</p>
+<p>Access to this page should be limited to Administrators only.</p>",en,de,
+APPLICATION_APPEARANCE,Application Appearance,Application Appearance,en,de,
+COMBOBOX,Combobox,Combobox,en,de,
+NO_ACTIVITIES_FOUND,No activities found,No activities found,en,de,
+NUM_ROWS,Num Rows,Num Rows,en,de,
+C,c,c,en,de,
+CREATED_BY,Created By,Angelegt von,en,de,
+ORDER_SEARCH,Order Search,Bestellsuche,en,de,
+PRODUCT_CATEGORIES,Product Categories,Produktkategorien,en,de,
+FEEDBACK_DELETED,Feedback Deleted,Feedback Deleted,en,de,
+MONTHLY_SALES,Monthly Sales,Monthly Sales,en,de,
+FLAGSHIP,Flagship,Flagship,en,de,
+APPLY_CHANGES,Apply Changes,Änderungen speichern,en,de,
+FIND_A_CITY,Find a City,Find a City,en,de,
+ADD_USERS,Add Users,Add Users,en,de,
+TOP_10_PRODUCTS,Top 10 Products,Top 10 Products,en,de,
+TIMEZONE,Timezone,Timezone,en,de,
+CONFIGURATION_OPTIONS_UPDATED,Configuration Options updated. ,Configuration Options updated. ,en,de,
+FIRST_NAME,First Name,First Name,en,de,
+PNO_VALID_NEW_USERS_FOUNDP,<p>No valid new users found</p>,<p>No valid new users found</p>,en,de,
+NEGATIVE,Negative,Negative,en,de,
+UNIT_PRICE,Unit Price,Stückpreis,en,de,
+REMEMBER_ME,Remember me,Remember me,en,de,
+RICH_AND_DISPLAY_ITEMS,Rich and Display Items,Rich and Display Items,en,de,
+WIZARD_CONTAINER,Wizard Container,Wizard Container,en,de,
+FEEDBACK_SUBMITTED,Feedback Submitted,Feedback Submitted,en,de,
+OPEN,Open,Open,en,de,
+BUTTONS,Buttons,Buttons,en,de,
+COL006,Col006,Col006,en,de,
+PRODUCTS_BOUGHT,Products Bought,Products Bought,en,de,
+STATE_PROVINCE,State Province,State Province,en,de,
+PLUG_SOURCE,"<p>Welcome to <strong>Orbit Sales</strong>, the sales and order management application of %COMPANY_NAME.</p>
+<p><strong>%G_PENDING_APPROVALS</strong> orders are awaiting approval.</p>
+<p>Use the navigation menu to find customers and products. Administrators can manage users and settings under <em>Administration</em>.</p>
+<p>Questions about an order? Write to <a href=""mailto:%G_SUPPORT_EMAIL"">%G_SUPPORT_EMAIL</a>.</p>","<p>Willkommen bei <strong>Orbit Sales</strong>, der Vertriebs- und Bestellanwendung von %COMPANY_NAME.</p>
+<p><strong>%G_PENDING_APPROVALS</strong> Bestellungen warten auf Genehmigung.</p>
+<p>Über das Navigationsmenü finden Sie Kunden und Produkte. Administratoren verwalten Benutzer und Einstellungen unter <em>Verwaltung</em>.</p>
+<p>Fragen zu einer Bestellung? Schreiben Sie an <a href=""mailto:%G_SUPPORT_EMAIL"">%G_SUPPORT_EMAIL</a>.</p>",en,de,
+CITIES,Cities,Cities,en,de,
+SUCCESSFUL_ROWS,Successful Rows,Successful Rows,en,de,
+SEARCH_DIALOG,Search Dialog,Search Dialog,en,de,

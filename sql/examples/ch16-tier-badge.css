@@ -1,0 +1,12 @@
+.tier-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .03em;
+}
+.tier-platinum { background: #e3e7ee; color: #2c3e50; }
+.tier-gold     { background: #f8e3a3; color: #6b4e00; }
+.tier-silver   { background: #e9eef2; color: #4a5a68; }
+.tier-bronze   { background: #f3d4b8; color: #7a3f12; }

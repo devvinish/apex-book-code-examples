@@ -1,0 +1,79 @@
+# prefix: orb
+categories
+  category_id /pk
+  parent_category_id /fk categories
+  category_name vc100 /nn /unique
+  description vc400
+suppliers
+  supplier_id /pk
+  supplier_name vc100 /nn /unique
+  contact_name vc100
+  email vc255
+  country_code vc2 /nn
+  is_active bool /default true
+warehouses
+  warehouse_id /pk
+  warehouse_name vc60 /nn /unique
+  city vc60 /nn
+  latitude num
+  longitude num
+employees
+  employee_id /pk
+  first_name vc50 /nn
+  last_name vc50 /nn
+  username vc60 /nn /unique
+  job_title vc60 /nn
+  manager_id /fk employees
+  hire_date date /nn
+customers
+  customer_id /pk
+  customer_type vc10 /check RETAIL, WHOLESALE
+  company_name vc100
+  last_name vc50
+  email vc255 /nn /unique
+  city vc60
+  credit_limit num
+  loyalty_tier vc10 /check BRONZE, SILVER, GOLD, PLATINUM
+  sales_rep_id /fk employees
+products
+  product_id /pk
+  sku vc20 /nn /unique
+  product_name vc100 /nn
+  category_id /fk categories /nn
+  supplier_id /fk suppliers
+  unit_price num /nn
+  reorder_level num
+  product_image blob
+inventory
+  inventory_id /pk
+  product_id /fk products /nn
+  warehouse_id /fk warehouses /nn
+  quantity_on_hand num /nn
+orders
+  order_id /pk
+  order_number vc20 /nn /unique
+  customer_id /fk customers /nn
+  sales_rep_id /fk employees
+  warehouse_id /fk warehouses
+  order_date date /nn
+  status vc20 /check NEW, PENDING_APPROVAL, APPROVED, SHIPPED, DELIVERED, CANCELLED
+  discount_pct num
+  order_total num
+  order_items
+    order_item_id /pk
+    product_id /fk products /nn
+    quantity num /nn
+    unit_price num /nn
+promotions
+  promotion_id /pk
+  promotion_name vc100 /nn
+  category_id /fk categories
+  start_date date /nn
+  end_date date /nn
+  discount_pct num
+product_reviews
+  review_id /pk
+  product_id /fk products /nn
+  customer_id /fk customers
+  rating num /between 1 and 5
+  review_text vc4000

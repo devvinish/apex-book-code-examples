@@ -1,0 +1,7 @@
+<strong>&PRICE.</strong>
+{case NEEDS_REORDER/}
+{when Y/}
+  <span class="u-danger-text">&STOCK_ON_HAND. in stock – reorder</span>
+{otherwise/}
+  <span class="u-success-text">&STOCK_ON_HAND. in stock</span>
+{endcase/}

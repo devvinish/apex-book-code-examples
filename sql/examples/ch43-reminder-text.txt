@@ -1,0 +1,3 @@
+Order #ORDER_NUMBER# for #CUSTOMER_NAME# is waiting for approval.
+Order total: #ORDER_TOTAL#, discount: #DISCOUNT_PCT#%
+Please review it in My Approvals in Orbit Sales.
