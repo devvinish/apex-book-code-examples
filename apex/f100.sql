@@ -11192,6 +11192,7 @@ wwv_flow_imp_page.create_page_item(
  p_id=>wwv_flow_imp.id(36589110310015204)
 ,p_name=>'P3_CUSTOMER_NAME'
 ,p_source_data_type=>'VARCHAR2'
+,p_is_query_only=>true
 ,p_item_sequence=>190
 ,p_item_plug_id=>wwv_flow_imp.id(36581273907015199)
 ,p_item_source_plug_id=>wwv_flow_imp.id(36581273907015199)

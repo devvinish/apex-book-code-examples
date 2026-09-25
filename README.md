@@ -84,3 +84,5 @@ Each file in `sql/examples` belongs to the chapter in its name, for example `ch3
 ## Corrections
 
 If you find an error in the book or the code, please open an issue in this repository or write through [vinish.dev](https://vinish.dev). Corrections are listed here and fixed in later printings.
+
+- **Saving a customer fails with ORA-54017** (*UPDATE operation disallowed on virtual columns*). The Create Application wizard (Chapter 13) makes the item `P3_CUSTOMER_NAME` of the Customer form writable, but `CUSTOMER_NAME` is a virtual column of `ORB_CUSTOMERS`. In Page Designer, select `P3_CUSTOMER_NAME` on page 3 and switch on **Source ▸ Query Only**. `apex/f100.sql` includes this fix.
