@@ -1,0 +1,4 @@
+expansionStateChange: Camping expanded
+expanded: ["C1"]
+after expandAll: 24 nodes
+state: 24 nodes, 6 expanded

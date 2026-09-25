@@ -1,0 +1,5 @@
+processed: 2, errors: 0
+TNT-1001 now 249.99
+TNT-1002 now 284.99
+restored: 2
+{"file-type":2,"single-row":false,"file-encoding":"WE8ISO8859P1","headings-in-first-row":true,"csv-enclosed":"\"","columns":[{"name":"SKU","data-type":1,"data-type-len":4000,"selector":"SKU","clob-column":0,"is-json":false},{"name":"UNIT_PRICE","data-type":2,"decimal-char":".","selector":"UNIT_PRICE","clob-column":0,"is-json":false}],"skip-rows":0}

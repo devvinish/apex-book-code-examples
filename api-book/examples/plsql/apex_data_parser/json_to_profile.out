@@ -1,0 +1,7 @@
+file type:  2
+delimiter:  |
+headings:   yes
+columns:    3
+  A data type 2
+  B data type 1
+  C data type 3 YYYY"-"MM"-"DD

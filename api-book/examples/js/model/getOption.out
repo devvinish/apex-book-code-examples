@@ -1,0 +1,4 @@
+modelId: orbitOrders - editable: true - pageSize: 100 - genIdPrefix: t
+new record id: new1000
+field key: CUSTOMER - metadata: {"defaultValue":"NEW"}
+identity: true false

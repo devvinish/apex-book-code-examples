@@ -1,0 +1,15 @@
+ranges: [
+  {
+    "startRowIndex": 0,
+    "startRowKey": "1",
+    "startColIndex": 2,
+    "startColKey": "CITY",
+    "endRowIndex": 2,
+    "endRowKey": "7",
+    "endColIndex": 3,
+    "endColKey": "STATE"
+  }
+]
+cells: ["Denver | Colorado", "Seattle | Washington", "Chicago | Illinois"]
+STATE: ["Colorado", "Colorado", "Colorado"]
+CITY: ["Denver", "Denver", "Denver"]

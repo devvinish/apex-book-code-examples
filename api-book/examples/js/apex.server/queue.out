@@ -1,0 +1,6 @@
+wait answered: ORD-12283
+wait answered: ORD-12280
+two waits: 2 s (one after the other)
+replace 2282 -> abort
+replace 2280 -> abort
+replace answered: ORD-12279

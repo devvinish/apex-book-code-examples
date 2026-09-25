@@ -1,0 +1,5 @@
+spatial available: yes
+point:     gtype 2001, srid 4326
+Denver store   gtype 2003, 78.1 km2, downtown: TRUE
+Boulder region gtype 2003, 213.3 km2, downtown: FALSE
+metadata:  AREA, srid 4326

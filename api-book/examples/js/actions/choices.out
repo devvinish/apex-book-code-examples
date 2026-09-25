@@ -1,0 +1,4 @@
+select options: Today, This Week, This Month - selected: WEEK
+set: MONTH
+get: MONTH - select: MONTH
+after updateChoices: 4 options

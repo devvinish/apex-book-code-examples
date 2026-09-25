@@ -1,0 +1,7 @@
+typeName: orbitPanel - context: orbit_panel
+types: ["global", "orbitPanel"]
+findContext: true - findContextById: true
+contexts of type: 1
+saved in the panel context
+in the global context: (not there)
+after removeContext: ["global"]

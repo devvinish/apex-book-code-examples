@@ -1,0 +1,6 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmJpdCIsInN1YiI6IkFETUlOIiwiYXVkIjoiYXBpLWxhYiIsImlhdCI6MTc3MzQ4MDYwMCwiZXhwIjoxNzczNDg0MjAwLCJyb2xlIjoibWFuYWdlciJ9.rRdTHPZ8MpyZIGxuDkPSeYTXqwN8RXvzDaCp77FS5tU
+header:  {"alg":"HS256","typ":"JWT"}
+payload: {"iss":"orbit","sub":"ADMIN","aud":"api-lab","iat":1773480600,"exp":1773484200,"role":"manager"}
+expired   VALUE_ERROR
+fresh     valid
+wrong key VALUE_ERROR

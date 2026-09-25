@@ -1,0 +1,5 @@
+startOfDay: 23-SEP-2026 00:00:00
+endOfDay:   23-SEP-2026 23:59:59
+dayOfWeek: 3 - getDayOfYear: 266 - secondsPastMidnight: 52205
+setDayOfYear returns: undefined
+the date is now: 01-JAN-2026 14:30:05

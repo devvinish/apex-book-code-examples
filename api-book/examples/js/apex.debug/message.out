@@ -1,0 +1,5 @@
+message at INFO: {"orderId":2282}
+log: the highest level
+Warning: warn: order total is negative
+info: 6 orders loaded
+trace: entering refreshOrders

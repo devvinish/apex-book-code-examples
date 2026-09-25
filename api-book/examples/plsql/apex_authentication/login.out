@@ -1,0 +1,5 @@
+public user: yes, authenticated: no
+user: KIM.LEE, authenticated: yes
+Set-Cookie:ORA_WWV_APP_200=ORA_WWV-...; path=/ords/; samesite=lax; HttpOnly
+Location:/ords/r/apexbook/api-lab/home?session=...
+Status:302

@@ -1,0 +1,6 @@
+html:           O&#x27;Brien &amp; Sons &lt;script&gt;alert(&quot;x&quot;)&lt;&#x2F;script&gt;
+html_attribute: Tent&#x20;&#x22;Olive&#x22;&#x20;&#x26;&#x20;more
+striphtml:      Order ORD-12283 shipped
+html_trunc:     Tent &amp; x
+allowlist:      <b>Bold</b> &lt;img src=x onerror=alert(1)&gt; <i>ok</i>
+noop:           <b>as is</b>

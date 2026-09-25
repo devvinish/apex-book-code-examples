@@ -1,0 +1,14 @@
+editable: true true true - autoAddRow: true
+features: ["saveReport", "download", "filter", "flashback"] - download formats: ["CSV", "HTML", "XLSX", "PDF"]
+toolbar: {
+  "reset": true,
+  "save": true,
+  "columnSelection": true,
+  "searchField": true,
+  "savedReports": true,
+  "editing": true,
+  "addRow": true,
+  "actionMenu": true
+}
+reportSettingsArea: {"disabled":false} - initialSelection: true - trackParentSelection: true
+views: ["icon", "detail", "grid", "chart"]

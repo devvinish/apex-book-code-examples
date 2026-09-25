@@ -1,0 +1,7 @@
+Content-Type:text/csv; charset=utf-8
+X-Content-Type-Options:nosniff
+X-Xss-Protection:1; mode=block
+Referrer-Policy:strict-origin
+Content-Security-Policy:default-src 'self' 'nonce-4t9CaVhMWa_6qFsWew1iJg'; script-src 'self' 'nonce-4t9CaVhMWa_6qFsWew1iJg' 'wasm-unsafe-eval'; connect-src 'self' https://elocation.oracle.com; img-src 'self' data: blob: https://elocation.oracle.com; font-src 'self' data:; worker-src 'self' blob:; object-src 'none'; frame-ancestors 'self';
+Content-Length:47
+Content-Disposition:attachment; filename="prices.csv"; filename*=utf-8''prices.csv

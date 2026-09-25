@@ -1,0 +1,7 @@
+get_session_state: Summit Daypack
+v:                 Summit Daypack
+get_numeric:       42.5
+nv:                42.5
+fetch_app_item:    (null)
+after clear_page_cache: (null)
+after clear_app_cache:  (null)

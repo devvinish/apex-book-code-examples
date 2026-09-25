@@ -1,0 +1,4 @@
+same model: true
+after 2 releases: true
+after destroy: false null
+cached detail models: 10

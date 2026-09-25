@@ -1,0 +1,20 @@
+file: application 200 "API Lab", alias API-LAB, workspace , APEX 2026.03.30
+install as: 9200, API-LAB-COPY, API Lab (copy), schema ORBIT, RUN_ONLY
+API Last Extended:20260330
+Your Current Version:20260330
+This import is compatible with version: 20260330
+COMPATIBLE (You should be able to run this import without issues.)
+ID offset during import: 43018123787394834
+New ID offset for application: 0
+------------------------------------------------------------------
+WARNING for credential "credentials-for-local-ollama" (Static ID):
+
+- Oracle APEX export files do not contain credential information.
+- Use the APEX_CREDENTIAL.SET_PERSISTENT_CREDENTIAL procedure to set the
+- credentials after the application has been imported. The credential is being
+- referenced with its static ID "credentials-for-local-ollama"
+--------------------------------------------------------------
+
+... elapsed: 3.02 sec
+installed:  9200 "API Lab (copy)", API-LAB-COPY, Run Only, 49 pages
+removed

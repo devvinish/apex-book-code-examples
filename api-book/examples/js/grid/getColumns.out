@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ID",
+    "seq": 2
+  },
+  {
+    "name": "STORE_NAME",
+    "heading": "Store",
+    "seq": 3
+  },
+  {
+    "name": "CITY",
+    "heading": "City",
+    "seq": 4
+  }
+]
+visible: CITY APEX$ROW_ACTION STORE_NAME STATE OPENED_ON FLOOR_AREA_SQFT FLAGSHIP
+STORE_NAME: {"width":300, "frozen":true}

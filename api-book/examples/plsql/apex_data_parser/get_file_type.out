@@ -1,0 +1,6 @@
+orders.xlsx  type 1, is CSV: no
+ORDERS.CSV   type 2, is CSV: yes
+feed.json    type 4, is CSV: no
+stores.xml   type 3, is CSV: no
+events.ics   type 5, is CSV: no
+notes.txt    type 2, is CSV: yes

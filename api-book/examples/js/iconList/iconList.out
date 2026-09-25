@@ -1,0 +1,4 @@
+selectionchange: ["bag", "jacket"]
+selection: ["Sleeping Bags", "Jackets"]
+columns: 15 - rows: 1
+activate: ["bag", "jacket"]

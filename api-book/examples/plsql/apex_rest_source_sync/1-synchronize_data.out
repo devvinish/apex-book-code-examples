@@ -1,0 +1,26 @@
+/*
+-- This API call dynamically synchronizes the table columns to the
+-- REST Data Source's data profile by executing ALTER TABLE statements.
+-- If a column data type cannot be changed using ALTER TABLE, an error
+-- message will be raised.
+---------------------------------------------------------------------
+begin
+apex_rest_source_sync.synchronize_table_definition(
+p_application_id      => apex_application_install.get_application_id,
+p_module_static_id    => 'city-geocoding',
+p_drop_unused_columns => false );
+end;
+/
+*/
+
+create table "ORBIT"."LAB_CITIES"(
+    "ID"                        NUMBER
+   ,"NAME"                      VARCHAR2(4000)
+   ,"ADMIN1"                    VARCHAR2(4000)
+   ,...
+last sync: just now
+running: no
+
+CITIES NAME
+------ -----------
+    10 Blue Island

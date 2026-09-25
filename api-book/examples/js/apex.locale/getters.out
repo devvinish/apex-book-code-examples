@@ -1,0 +1,7 @@
+language: en
+decimal: . - group: ,
+currency: $ USD $
+date formats: DS | fmMM/DD/RRRR | fmDay, Month fmdd, yyyy
+days: Sunday Monday Tuesday Wednesday Thursday Friday Saturday
+abbrev: Sun Mon Tue Wed Thu Fri Sat | Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+months: January February March …

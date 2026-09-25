@@ -1,0 +1,6 @@
+{"orderNumber":"ORD-12283","total":463.21,"shipped":true,"onShip":function(){
+apex.message.showPageSuccess("Shipped")
+},"created":new Date(2026, 8, 23),"lines":["Tent",2,function(){
+return 1 + 1
+}]}
+after reset, is_null: yes

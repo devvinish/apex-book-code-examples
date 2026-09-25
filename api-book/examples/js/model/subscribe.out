@@ -1,0 +1,6 @@
+notification: set 2279 STATUS
+notification: insert t1000 
+notification: delete ["2280"] 
+notification: revert ["2279"] 
+notification: metaChange 2278 TOTAL
+notification: clearChanges  

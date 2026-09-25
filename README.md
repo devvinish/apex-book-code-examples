@@ -35,6 +35,7 @@ git clone https://github.com/devvinish/apex-book-code-examples.git
 | `sql/examples/translations` | The German translation file of Chapter 41 |
 | `sql/examples/data` | `price-update.csv`, the data load file of Chapter 40 |
 | `apex/f100.sql` | An export of the finished Orbit Sales application |
+| `api-book` | The API Lab and the JavaScript and PL/SQL examples of the second book, *Oracle APEX 26.1 API by Example* |
 
 ## Installing the Sample Schema
 
@@ -80,6 +81,10 @@ Some features need configuration that an application export cannot carry:
 ## Code Examples
 
 Each file in `sql/examples` belongs to the chapter in its name, for example `ch31-get-customer-info.sql` for the Ajax callback of Chapter 31 or `ch44-order-lookup.sql` for the AI tool of Chapter 44. The chapters show where each one goes.
+
+## Oracle APEX 26.1 API by Example
+
+The folder [`api-book`](api-book) belongs to the second book, **Oracle APEX 26.1 API by Example: JavaScript and PL/SQL Built-ins with Practical Examples**. It holds the API Lab application and a runnable example, with its output, for every method and event of the APEX JavaScript API and every procedure and function of the APEX PL/SQL packages, plus the book's JavaScript recipes. The examples use the same ORBIT schema. See [`api-book/README.md`](api-book/README.md).
 
 ## Corrections
 

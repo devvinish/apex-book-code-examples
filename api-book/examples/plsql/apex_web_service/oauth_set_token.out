@@ -1,0 +1,3 @@
+last token: orbit-demo-token
+without header: 401
+with header:    200 {"authenticated":true,"token":"orbit-demo-token"}

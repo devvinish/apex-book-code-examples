@@ -1,0 +1,19 @@
+Fulfill order ORD-12263, version 1.0, started by KIM.LEE
+task created: workflow ACTIVE
+  Start             COMPLETED
+  Prepare Order     COMPLETED
+  Reserve Stock     COMPLETED
+  Prepare Invoice   COMPLETED
+  Confirm Shipment  WAITING
+suspended: SUSPENDED
+APPROVER = ADMIN
+resumed: ACTIVE
+task completed: workflow COMPLETED
+  Start             COMPLETED
+  Prepare Order     COMPLETED
+  Reserve Stock     COMPLETED
+  Prepare Invoice   COMPLETED
+  Confirm Shipment  COMPLETED
+  Ship Order        COMPLETED
+  End               COMPLETED
+order: SHIPPED (Stock reserved, Invoice prepared)

@@ -1,0 +1,13 @@
+filters  Filter CHANNEL in Online,Phone; Filter STATUS = Shipped; Highlight STATUS = Pending Approval
+last viewed report: 77303834231394171
+where 1=1
+
+ and "STATUS"=:apex$f1
+
+ and "CHANNEL"in (:apex$f2,:apex$f3)
+order by "ORDER_DATE" desc nulls first
+  :APEX$F1 = Shipped
+  :APEX$F2 = Online
+  :APEX$F3 = Phone
+reset    -
+cleared  -

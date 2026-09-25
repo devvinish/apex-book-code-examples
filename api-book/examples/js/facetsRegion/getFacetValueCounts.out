@@ -1,0 +1,13 @@
+total: 96
+P4_PRICE: {"|50":23, "300|":10, "50|150":36, "150|300":27}
+P4_IS_ACTIVE: {"FALSE":3, "TRUE":93}
+P4_COLOR: {
+  "Red": 9,
+  "Slate Grey": 11,
+  "Forest Green": 12,
+  "Burnt Orange": 10,
+  "Black": 15,
+  "Sand": 11,
+  "Ocean Blue": 14,
+  "Olive": 8
+}

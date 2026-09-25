@@ -1,0 +1,16 @@
+{
+ "categories":[
+  {
+   "CATEGORY_ID":1
+  ,"CATEGORY_NAME":"Camping"
+  }
+ ,{
+   "CATEGORY_ID":2
+  ,"CATEGORY_NAME":"Hiking"
+  }
+ ,{
+   "CATEGORY_ID":3
+  ,"CATEGORY_NAME":"Clothing"
+  }
+ ]
+}

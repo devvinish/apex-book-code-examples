@@ -1,0 +1,12 @@
+changes: false - errors: false
+changes: true - for this model: true
+region properties: [
+  "reportId",
+  "view",
+  "ajaxColumns",
+  "allowedOperations",
+  "id",
+  "ajaxIdentifier",
+  "saveData"
+]
+changed row: ["1", "Orbit Denver Union Station (renovated)", "Denver"] - operation: u

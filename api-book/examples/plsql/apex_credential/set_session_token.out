@@ -1,0 +1,2 @@
+OAuth2 Client Credentials flow, scope: orders.read orders.write
+tokens set, cleared, and the credential dropped
