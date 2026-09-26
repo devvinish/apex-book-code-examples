@@ -86,6 +86,10 @@ Each file in `sql/examples` belongs to the chapter in its name, for example `ch3
 
 The folder [`api-book`](api-book) belongs to the second book, **Oracle APEX 26.1 API by Example: JavaScript and PL/SQL Built-ins with Practical Examples**. It holds the API Lab application and a runnable example, with its output, for every method and event of the APEX JavaScript API and every procedure and function of the APEX PL/SQL packages, plus the book's JavaScript recipes. The examples use the same ORBIT schema. See [`api-book/README.md`](api-book/README.md).
 
+- 📘 **About the book:** [vinish.dev/oracle-apex-26-api-by-example-book](https://vinish.dev/oracle-apex-26-api-by-example-book)
+- 📖 **Paperback** on Amazon: [amazon.com/dp/B0HL1R8HLP](https://www.amazon.com/dp/B0HL1R8HLP)
+- 📱 **Kindle edition** on Amazon: [amazon.com/dp/B0HKZXR17R](https://www.amazon.com/dp/B0HKZXR17R)
+
 ## Corrections
 
 If you find an error in the book or the code, please open an issue in this repository or write through [vinish.dev](https://vinish.dev). Corrections are listed here and fixed in later printings.

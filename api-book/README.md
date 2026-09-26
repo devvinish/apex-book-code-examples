@@ -2,7 +2,9 @@
 
 The API Lab application and every example of the book **Oracle APEX 26.1 API by Example: JavaScript and PL/SQL Built-ins with Practical Examples** by Vinish Kapoor: a runnable example, with its real output, for every method and event of the Oracle APEX 26.1 JavaScript API and every procedure and function of its PL/SQL packages — 518 files in all.
 
-- 📘 **Book page:** coming soon
+- 📘 **About the book, sample pages, and contents:** [vinish.dev/oracle-apex-26-api-by-example-book](https://vinish.dev/oracle-apex-26-api-by-example-book)
+- 📖 **Paperback** on Amazon: [amazon.com/dp/B0HL1R8HLP](https://www.amazon.com/dp/B0HL1R8HLP)
+- 📱 **Kindle edition** on Amazon: [amazon.com/dp/B0HKZXR17R](https://www.amazon.com/dp/B0HKZXR17R)
 
 The examples run on the Orbit Outfitters sample schema in [`../sql/orbit`](../sql/orbit), the same schema as the first book, *Oracle APEX 26.1: The Complete Guide*.
 
