@@ -1,0 +1,14 @@
+ADMIN is workflow admin:  yes
+ADMIN is owner:           yes
+KIM.LEE may terminate:    yes
+ADMIN may terminate:      yes
+state: TERMINATED
+next purge: scheduled
+
+DISP       VAL
+---------- ----------
+Active     ACTIVE
+Suspended  SUSPENDED
+Completed  COMPLETED
+Terminated TERMINATED
+Faulted    FAULTED

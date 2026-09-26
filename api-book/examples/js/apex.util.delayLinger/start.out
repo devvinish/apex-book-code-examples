@@ -1,0 +1,3 @@
+fast (100 ms) no spinner
+slow (1500 ms) shown at 200 ms
+slow (1500 ms) removed at 1500 ms

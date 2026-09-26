@@ -1,0 +1,10 @@
+views: ["grid", "chart"] - current: grid
+{
+  "internalIdentifier": "grid",
+  "title": "Grid",
+  "icon": "icon-ig-report",
+  "modelName": "stores_grid",
+  "singleRowMode": false,
+  "viewElement": "stores_ig_grid_vc"
+}
+records in the view's model: 13

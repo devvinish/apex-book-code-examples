@@ -1,0 +1,4 @@
+SUPPORT_EMAIL: sales-support@orbit-outfitters.example
+changed:       help@orbit-outfitters.example
+unknown:       (null)
+p_raise_error: ORA-20987: APEX - Requested Application Setting #NO_SUCH_SETTING# is not defined

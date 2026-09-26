@@ -1,0 +1,4 @@
+({tent} ACCUM {shelter}) AND {two person}
+FUZZY({tnet},80,100,W)
+{trailblazer}*3 AND {tent}
+<query><textquery><progression><seq>{tent} {shelter}</seq><seq>${tent} ${shelter}</seq><seq>FUZZY({tent},40,1000,W) FUZZ...

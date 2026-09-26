@@ -1,0 +1,3 @@
+{
+ "orders":[{"orderNumber":"ORD-10001","status":"CANCELLED","total":35164.61,"items":[{"SKU":"BPK-1003","qty":33},{"SKU":"GPS-1002","qty":17},{"SKU":"GPS-1003","qty":23},{"SKU":"SLP-1005","qty":7},{"SKU":"TNT-1001","qty":18},{"SKU":"TNT-1003","qty":17}]},{"orderNumber":"ORD-10002","status":"DELIVERED","total":44.99,"items":[{"SKU":"TRV-1004","qty":1}]}]
+}

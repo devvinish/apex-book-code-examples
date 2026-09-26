@@ -1,0 +1,11 @@
+1: The status of order ORD-12259 is Pending Approval.
+2: Order ORD-12259 needs manager's approval because it has a discount of 12%, which is above the 10% threshold.
+conversation:
+  user      What is the status of order ORD-12259?
+  assistant (calls order_lookup)
+  tool
+  assistant The status of order ORD-12259 is Pending Approval.
+  user      Why does it need approval?
+  assistant (calls order_lookup)
+  tool
+  assistant Order ORD-12259 needs manager's approval because it has a discount of

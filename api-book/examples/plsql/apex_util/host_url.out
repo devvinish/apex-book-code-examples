@@ -1,0 +1,5 @@
+host_url:              http://:
+host_url(SCRIPT):      http://:/
+host_url(APEX_PATH):   http://:/
+get_current_user_id:   (ADMIN's ID)
+get_default_schema:    ORBIT

@@ -1,0 +1,21 @@
+{
+ "items": [
+  {
+   "label": "Matthew Jones",
+   "value": 1329.95
+  },
+  {
+   "label": "Linda Lopez",
+   "value": 1030.69
+  },
+  {
+   "label": "Prairie Travel Co.",
+   "value": 11495.93
+  }
+ ],
+ "statuses": [
+  "SHIPPED",
+  "CANCELLED",
+  "APPROVED"
+ ]
+}

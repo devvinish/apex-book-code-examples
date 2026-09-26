@@ -1,0 +1,2 @@
+3 rows parsed
+{"file-type":2,"file-encoding":"AL32UTF8","headings-in-first-row":true,"csv-delimiter":",","csv-enclosed":"\"","force-trim-whitespace":false,"columns":[{"name":"SKU","data-type":1,"data-type-len":50,"selector":"SKU","is-json":false},{"name":"PRICE","data-type":2,"decimal-char":".","selector":"Price","is-json":false}],"parsed-rows":3}

@@ -1,0 +1,6 @@
+treeviewbeginedit rename
+treeviewendedit rename
+label: Camping & Hiking
+treeviewbeginedit add
+treeviewendedit add
+children: 2 - New Category

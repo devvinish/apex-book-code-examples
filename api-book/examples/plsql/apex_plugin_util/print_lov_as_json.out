@@ -1,0 +1,7 @@
+Content-Type:application/json; charset=utf-8
+
+[
+{"d":"Camping","r":"1"}
+,{"d":"Hiking","r":"2"}
+,{"d":"Clothing","r":"3"}
+]

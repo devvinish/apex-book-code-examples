@@ -1,0 +1,16 @@
+REFERENCED_TYPE REFERENCED_NAME USAGE_COUNT
+--------------- --------------- -----------
+PACKAGE         ORB_AUTH                  2
+PACKAGE         ORB_SALES                 6
+TABLE           LAB_CITIES                1
+TABLE           ORB_CATEGORIES            1
+TABLE           ORB_CUSTOMERS            13
+TABLE           ORB_EMPLOYEES             5
+TABLE           ORB_ORDERS                9
+TABLE           ORB_ORDER_ITEMS           1
+TABLE           ORB_PRODUCTS              1
+TABLE           ORB_SUPPLIERS             1
+TABLE           ORB_WAREHOUSES            1
+VIEW            ORB_ORDERS_V             19
+VIEW            ORB_ORDER_DV              1
+VIEW            ORB_PRODUCTS_V            6

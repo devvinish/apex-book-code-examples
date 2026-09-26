@@ -1,0 +1,7 @@
+root: add false - delete false - rename false
+Camping: delete true - drag true - drag operations {"normal":"move", "ctrl":"copy"}
+link: f?p=200:products - icon: fa fa-folder-o
+Discontinued: disabled true - classes is-muted - hasChildren false
+renamed: Camping Gear at 0
+added: Tents - id tn4
+deleted: true - children now 1

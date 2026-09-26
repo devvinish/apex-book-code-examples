@@ -1,0 +1,3 @@
+row 1: status ok
+row 2: status -2290 check constraint (ORBIT.ORB_PROMOTIONS_DATES_CK) violated
+has error: yes

@@ -1,0 +1,2 @@
+after closeRegion: collapsed
+after openRegion:  expanded

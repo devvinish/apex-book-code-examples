@@ -1,0 +1,4 @@
+get_clob:     32767 characters
+get_varchar2: 32767 characters
+get_value:    varchar2_value 32767 characters, clob_value (null)
+get_value(P20_SWITCH): boolean_value TRUE

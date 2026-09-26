@@ -1,0 +1,5 @@
+security group ID found: yes
+find_workspace:          APEXBOOK
+get_apex_owner:          APEX_260100
+get_default_schema:      ORBIT
+get_edition:             (null)

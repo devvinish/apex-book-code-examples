@@ -1,0 +1,8 @@
+emails:      linda.kim@example.com, billing@example.com.
+from:        linda.kim@example.com
+subject:     Order ORD-12280 cancelled
+links:       https://orbit-outfitters.example/orders/12280
+tags:        #REFUND, #URGENT
+identifiers: ORD-12280
+phrases:     refund
+exists:      yes

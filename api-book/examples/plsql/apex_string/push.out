@@ -1,0 +1,6 @@
+list:     Tents, Stoves, Lanterns, Tarps - numbers: 1
+index_of: 3, missing:
+grep:     Tents, Tarps
+grep i:   Tents, Stoves, Lanterns, Tarps
+shuffle:  4 elements in random order
+initials: WT, M

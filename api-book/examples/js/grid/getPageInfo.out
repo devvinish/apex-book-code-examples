@@ -1,0 +1,19 @@
+page info: {
+  "rowHeight": 32,
+  "recordsPerRow": 1,
+  "firstOffset": 1,
+  "lastOffset": 13,
+  "pageSize": 24,
+  "pageOffset": 0,
+  "total": 13,
+  "scrollOffset": 0,
+  "viewOffset": 0
+}
+pagechange: offset 0 count 13
+pagechange: offset 0 count 5
+pagechange: offset 0 count 5
+pagechange: offset 5 count 5
+nextPage: true
+pagechange: offset 10 count 3
+gotoPage(2): true
+first: 11 last: 13 total: 13

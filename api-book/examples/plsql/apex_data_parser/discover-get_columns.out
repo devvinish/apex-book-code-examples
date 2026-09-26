@@ -1,0 +1,7 @@
+COLUMN_POSITION COLUMN_NAME DATA_TYPE    FORMAT_MASK
+--------------- ----------- ------------ ------------
+              1 SKU         VARCHAR2(50) (null)
+              2 PRODUCT     VARCHAR2(50) (null)
+              3 PRICE       NUMBER       (null)
+              4 LAUNCHED    DATE         DD"."MM"."RR
+              5 IN_STOCK    BOOLEAN      (null)

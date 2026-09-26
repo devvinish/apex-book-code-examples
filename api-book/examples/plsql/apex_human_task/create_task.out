@@ -1,0 +1,13 @@
+Approve order ORD-12259 for Canyon Adventure Club (from KIM.LEE)
+  UNASSIGNED, priority 2, owner -, due 27-SEP-2026 11:40
+may claim:   yes
+may approve: no
+  ASSIGNED, priority 1, owner ADMIN, due 01-OCT-2026 12:00
+may approve: yes
+  INFO_REQUESTED, priority 1, owner KIM.LEE, due 01-OCT-2026 12:00
+Create                KIM.LEE Task created with ID 43008019349312473
+Claim                 ADMIN   Task claimed by ADMIN
+Update Priority       ADMIN   Set task priority to 1
+Update Due On         ADMIN   Set task due date to 01-OCT-26 12.00.00.000000 PM +00:00
+Update Comment        ADMIN   Add comment: The discount is above 15%.
+Request Information   ADMIN   Requested KIM.LEE for more information: Why this discount?

@@ -1,0 +1,3 @@
+orbit-docs {"label":"APEX Documentation", "shortcut":"Alt+D", "target":"_blank"}
+orbit-orders {"label":"Orders", "shortcut":null, "icon":"fa-list"}
+orbit-hidden {"label":"Hidden Action", "shortcut":null, "hide":true}

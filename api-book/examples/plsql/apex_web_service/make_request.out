@@ -1,0 +1,6 @@
+Add: 42
+Body: <AddResponse xmlns="http://tempuri.org/">
+  <AddResult>42</AddResult>
+</AddResponse>
+
+Multiply: 80

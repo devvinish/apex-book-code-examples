@@ -1,0 +1,8 @@
+header: api-lab
+method: POST
+json:   {"qty":2,"sku":"TNT-1002"}
+client: api-lab
+ecid:   sent
+left:   Content-Type
+left:   ECID-Context
+left:   0 header(s)

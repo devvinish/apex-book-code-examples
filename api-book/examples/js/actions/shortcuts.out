@@ -1,0 +1,17 @@
+[
+  {
+    "shortcut": "Alt+N",
+    "shortcutDisplay": "⌥ N",
+    "actionName": "orbit-new-order",
+    "actionLabel": "New Order"
+  },
+  {
+    "shortcut": "Ctrl+Alt+O",
+    "shortcutDisplay": "⌃ ⌥ O",
+    "actionName": "orbit-new-order",
+    "actionLabel": "New Order"
+  }
+]
+display: ⌃ ⌥ O - aria: Control+Alt+O
+action: new order
+removeShortcut: true

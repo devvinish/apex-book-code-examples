@@ -1,0 +1,9 @@
+leads.csv (text/csv):
+LEAD_ID,NAME,CITY,STATUS,CREATED_ON
+1,Norberto Febre,Brooklyn,WON,2026-04-23
+2,Novella Shackleton,Staten Island,NEW,2026-02-07
+3,Norene Pensky,Cherry Hill,NEW,2026-02-09
+4,Numbers Hitzler,Bronx,NEW,2026-01-19
+
+examples of person.first_name: Colby, Delia, Marvella, Monty
+blueprint JSON: 5234 characters

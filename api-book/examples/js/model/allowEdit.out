@@ -1,0 +1,4 @@
+2282 edit: false - delete: false - drag: true
+2279 edit: true - delete: true - drag: true
+add: true - check canAdd: true
+drag operations: {"normal":"move", "ctrl":"copy"}

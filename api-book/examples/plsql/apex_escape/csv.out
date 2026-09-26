@@ -1,0 +1,4 @@
+default:   "Tent, ""Olive""" | enclosed by ", separated by ,
+formula:   "	=SUM(A1:A9)"
+strip:     ORD-12283
+changed:   'Tent; Olive' | separated by ;

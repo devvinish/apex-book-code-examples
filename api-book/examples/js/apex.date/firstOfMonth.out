@@ -1,0 +1,4 @@
+firstOfMonth: 01-FEB-2026 - lastOfMonth: 28-FEB-2026
+daysInMonth: 28 - leap year: false true
+weekOfMonth: 3 - ISOWeek: 8
+monthsBetween: 7

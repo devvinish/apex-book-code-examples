@@ -1,0 +1,13 @@
+tileLayer: oracle-default osm-positron - vector tiles: true
+navigationBar: {"type":"full", "position":"top-right"}
+mapFeatures: {
+  "mousewheelZoom": false,
+  "scaleBar": true,
+  "circleTool": false,
+  "browserLocation": false,
+  "rectangleZoom": true,
+  "distanceTool": false,
+  "overviewMap": false,
+  "infiniteMap": true
+}
+layers: Customers, Stores

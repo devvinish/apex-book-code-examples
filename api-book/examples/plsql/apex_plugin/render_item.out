@@ -1,0 +1,8 @@
+<div  id="P20_STAR_RATING" name="P20_STAR_RATING" class="orb-rating&#x20;js-ignoreChange" >
+<input type="radio" name="" value="1">
+<input type="radio" name="" value="2">
+<input type="radio" name="" value="3">
+<input type="radio" name="" value="4" checked>
+<input type="radio" name="" value="5">
+</div>
+<input type="hidden" name="" id="P20_STAR_RATING" value="4">4 of 5
