@@ -1,8 +1,0 @@
-added         READER, approver
-any role:     yes
-READER:       yes
-approver:     no
-replaced      CONTRIBUTOR, READER
-removes admin: yes
-removed       CONTRIBUTOR
-all removed   -

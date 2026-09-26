@@ -1,2 +1,0 @@
-region models: ["stores_grid"]
-with local models: ["stores_grid", "orbitOrders"]

@@ -1,5 +1,0 @@
-open: 2
-after closeInfoWindow: 1
-after closeAllInfoWindows: 0
-tooltip: Layer: StoresOrbit Seattle Capitol Hill
-after closeTooltip: 0

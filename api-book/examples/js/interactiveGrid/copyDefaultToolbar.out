@@ -1,8 +1,0 @@
-groups: search reports views actions1 actions2 actions3 actions4
-actions3: ["selection-add-row", "orbit-export-stores"]
-reset-report: {
-  "type": "BUTTON",
-  "action": "reset-report",
-  "labelKey": "APEX.IG.RESET",
-  "iconBeforeLabel": true
-}

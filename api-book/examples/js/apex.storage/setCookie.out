@@ -1,3 +1,0 @@
-getCookie: dark
-document.cookie has it: true
-missing cookie: null

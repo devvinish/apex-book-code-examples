@@ -1,7 +1,0 @@
-js_literal:      'It\u0027s a \u0022tent\u0022\u000A\u003C\u002Fscript\u003E'
-js_literal ("):  "It\u0027s"
-json:            Line 1\nTab\t\"quoted\"
-css_selector:    order\#12\:new
-regexp:          \$4\.99 \(2 pcs\)\*
-ldap_dn:         Kim\, Linda\+Admin
-ldap_filter:     Linda\2A\28Kim\29

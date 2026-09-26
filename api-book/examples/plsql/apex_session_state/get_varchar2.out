@@ -1,6 +1,0 @@
-get_varchar2(P20_TEXT):  Trailblazer 2-Person Tent
-get_number(P20_NUMBER):  1249.5
-get_timestamp(P20_DATE): 2026-09-23 00:00
-get_boolean(P20_SWITCH): TRUE
-v(P20_NUMBER):           1249.5
-get_number: ORA-06502: PL/SQL: value or conversion error

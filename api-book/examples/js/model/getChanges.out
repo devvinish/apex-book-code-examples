@@ -1,7 +1,0 @@
-changed: false
-2279 {"inserted":false, "updated":true, "deleted":false} was APPROVED
-2280 {"inserted":false, "updated":false, "deleted":true} 
-t1000 {"inserted":true, "updated":false, "deleted":false} 
-can revert 2279: true
-reverted: 2 - 2279 is APPROVED
-after clearChanges: false - records: 6

@@ -1,7 +1,0 @@
-mapped      fr -> 200001, needs publishing: Yes
-<trans-unit id="S-5-1-200">
-<source>Home</source>
-<target>Accueil</target>
-published   fr -> 200001, needs publishing: No
-remapped    fr -> 200002, needs publishing: Yes
-French text messages deleted

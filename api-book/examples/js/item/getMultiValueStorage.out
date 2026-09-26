@@ -1,3 +1,0 @@
-select many: {"type":"separated", "separator":":"}
-shuttle: {"type":"separated", "separator":":"}
-text field: null

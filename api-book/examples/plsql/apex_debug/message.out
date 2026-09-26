@@ -1,9 +1,0 @@
-######
-###### State changes to: app=>200, page=>20, session=>799643294676, workspace=>36520348764463069, user=>ADMIN
-######
-[debug]  ERR Order ORD-10042: payment failed (card declined)                                            %DEBUG_API.error:140<:7
-[debug]  WRN Stock of TNT-1002 below 5                                                                  %DEBUG_API.warn:176<:8
-[debug]  INF Recalculating 3 lines, forced: true
-[debug]  INF Total: 1047.3
-last message ID: set
-page view ID:    set

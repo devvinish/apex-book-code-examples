@@ -1,4 +1,0 @@
-start:       value false, button active false
-toggle():    value true, button active true
-set(false):  value false, button active false
-user click:  value true, button active true

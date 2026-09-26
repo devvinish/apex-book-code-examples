@@ -1,4 +1,0 @@
-new id: t1000 - STATUS: NEW - at index 1
-copy: ["t1001"] ORD-12277
-order: t1001 2282 t1000 2279 2278 2277 2280
-deleted: 1 - still there: true - deleted flag: true

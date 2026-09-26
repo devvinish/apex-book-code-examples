@@ -1,4 +1,0 @@
-to:      kim.lee@orbit.example, cc: sales@orbit.example
-subject: Your order ORD-10042
-files:   ORD-10042.csv (text/csv), logo.png (image/png)
-template: Reminder: order ORD-10042 is waiting for approval

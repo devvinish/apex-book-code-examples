@@ -1,5 +1,0 @@
-regexp split: tent | stove | lamp
-limit 2:      a | b:c:d
-numbers:      3, sum 6841
-clobs:        2, joined: line one / line two
-join_clob:    ORD-12283, ORD-12280

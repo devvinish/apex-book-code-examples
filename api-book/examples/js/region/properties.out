@@ -1,2 +1,0 @@
-product_search - type: Facets - widgetName: facets - filterRegionId: null
-products - type: ClassicReport - widgetName: null - filterRegionId: product_search

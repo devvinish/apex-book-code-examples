@@ -1,9 +1,0 @@
-locked:                           TRUE
-after unlock_account:             FALSE
-end_user_account_days_left:       45
-after expire_end_user_account:    0
-after unexpire_end_user_account:  45
-workspace_account_days_left:      1
-change_password_on_first_use:     FALSE
-password_first_use_occurred:      FALSE
-is_login_password_valid:          TRUE

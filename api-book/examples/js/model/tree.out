@@ -1,8 +1,0 @@
-root: All Products - children: 2 - hasChildren: true
-child 0: Camping - parent: All Products
-All Products
-  Camping
-    Tents
-    Sleeping Bags
-  Clothing
-    Jackets

@@ -1,4 +1,0 @@
-singleRowMode: true
-record: 7 Orbit Chicago River North
-fields: ["APEX$ROW_ACTION", "ID", "STORE_NAME", "CITY"]
-CITY field: City

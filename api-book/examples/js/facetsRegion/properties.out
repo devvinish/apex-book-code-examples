@@ -1,7 +1,0 @@
-uiMode: F - batch: false - feedback: true
-searchItem: P4_SEARCH - currentFacets: #active_facets
-P4_CATEGORY_ID  list       Category   24 values
-P4_SUPPLIER_ID  list       Supplier   12 values
-P4_PRICE        rangeList  Price      4 values
-P4_COLOR        list       Color      8 values
-P4_IS_ACTIVE    list       Is Active  2 values

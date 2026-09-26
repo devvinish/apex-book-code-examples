@@ -1,4 +1,0 @@
-observed: add orbit-print
-observed: update orbit-print
-observed: remove orbit-print
-after unobserve: nothing observed

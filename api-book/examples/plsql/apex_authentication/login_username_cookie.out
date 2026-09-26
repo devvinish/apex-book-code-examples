@@ -1,5 +1,0 @@
-remembered: kim.lee
-persistent auth:    off
-persistent cookies: on
-callback: http://localhost:8080/ords/apex_authentication.callback?p_session_id=...&p_app_id=200&p_ajax_identifier=...&p_page_id=9999&p_x01=orbit
-Set-Cookie:LOGIN_USERNAME_COOKIE=kim.lee; expires=(in 6 months); samesite=lax; HttpOnly

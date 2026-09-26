@@ -1,6 +1,0 @@
-isBefore: true - same day: false
-isAfter: true
-isSame: false true
-isSameOrBefore: true - isSameOrAfter: true
-isBetween: true false
-min: 23-SEP 09:00 - max: 01-OCT 00:00

@@ -1,3 +1,0 @@
-role=status id=apexAriaStatus: 12 orders loaded.
-role=alert id=apexAriaAlert: Connection lost. Changes are not saved.
-after 5 s: 0 elements

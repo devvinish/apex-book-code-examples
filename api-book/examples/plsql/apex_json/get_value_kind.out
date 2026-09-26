@@ -1,7 +1,0 @@
-sku           varchar2 TNT-2P
-price         number   249
-active        true
-discontinued  false
-notes         null
-size          object   w,h
-colors        array    2 elements

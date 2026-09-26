@@ -1,4 +1,0 @@
-screen reader: Y, high contrast: Y
-toggle: <a href="/r/apexbook/api-lab/home?request=SET_SESSION_SCREEN_READER_OFF&session=...&cs=3nJoQ4kCBtRo-nItslLw-b9TjRqFsMWNNcsN2JS5nAZRl5HyBhIm7Q75U1TyP9cmeMlUlWItJ0lw9H_vx41AiJQ">Set Screen Reader Mode Off</a>
-screen reader: off, high contrast: off
-toggle: <a href="/r/apexbook/api-lab/home?request=SET_SESSION_HIGH_CONTRAST_ON&session=...&cs=39r--rmBn1RtpXxueta2ODFCHnG4NvpmkprdftUAv6GIzOTO16C61EDy1gKOsNOT0_D9SI5rLHvB7srOn8NntVw">High contrast</a>

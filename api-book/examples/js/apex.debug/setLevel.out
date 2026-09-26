@@ -1,3 +1,0 @@
-level: 0 {"OFF":0, "ERROR":1, "WARN":2, "INFO":4, "APP_TRACE":6, "ENGINE_TRACE":9}
-written at level 4
-Error: error() always writes, even when logging is off

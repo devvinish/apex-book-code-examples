@@ -1,3 +1,0 @@
-type:  multipart/form-data
-form:  {"orderNumber":"ORD-10042"}
-files: {"invoice":"sku,qty\nTNT-1002,2"}

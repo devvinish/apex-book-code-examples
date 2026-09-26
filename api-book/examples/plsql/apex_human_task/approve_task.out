@@ -1,6 +1,0 @@
-approve_task:
-  task COMPLETED APPROVED, order APPROVED
-reject_task:
-  task COMPLETED REJECTED, order NEW
-complete_task:
-  task COMPLETED , order APPROVED

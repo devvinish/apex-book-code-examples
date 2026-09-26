@@ -1,8 +1,0 @@
-g_flow_id:      200
-g_flow_step_id: 20
-g_user:         ADMIN
-g_instance:     (the session ID)
-g_flow_alias:   API-LAB
-g_debug:        off
-g_request:      (null)
-g_date_format:  DS

@@ -1,5 +1,0 @@
-COLLECTION_NAME MEMBERS FIRST_C001 MAX_N002 WITH_MD5
---------------- ------- ---------- -------- --------
-NEW_ORDERS            2 ORD-12272    (null)        0
-ORDERS               32 ORD-12206    (null)       32
-ORDER_TOTALS       2093 ORD-10002   49117.4        0

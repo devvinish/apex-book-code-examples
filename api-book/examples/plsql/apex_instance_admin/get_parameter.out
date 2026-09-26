@@ -1,9 +1,0 @@
-SMTP_HOST_ADDRESS                localhost
-SMTP_HOST_PORT                   25
-MAX_SESSION_LENGTH_SEC           2592000
-ACCOUNT_LIFETIME_DAYS            (null)
-ALLOW_PUBLIC_FILE_UPLOAD         N
-WORKSPACE_PROVISION_DEMO_OBJECTS N
-schemas of APEXBOOK: ORBIT
-MAX_SESSION_IDLE_SEC of APEXBOOK: (instance default)
-database signature valid: yes

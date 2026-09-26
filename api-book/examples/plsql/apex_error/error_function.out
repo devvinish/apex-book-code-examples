@@ -1,4 +1,0 @@
-ORA text:   check constraint (ORBIT.ORB_PROMOTIONS_DATES_CK) violated
-with code:  ORA-02290: check constraint (ORBIT.ORB_PROMOTIONS_DATES_CK) violated
-constraint: ORBIT.ORB_PROMOTIONS_DATES_CK
-shown:      A promotion must end after it starts. (INLINE_IN_NOTIFICATION)

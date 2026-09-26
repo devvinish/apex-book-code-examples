@@ -1,6 +1,0 @@
-instance debug: off
-PAGE VIEW ID STARTED  SECS LVL COUNT PATH INFO APP:PAGE    SESSION ID WORKSPACE USER
------------- -------- ---- --- ----- --------- -------- ------------- --------- -----
-       66553 11:54:04 0.00 ERR     3 SQL*Plus/                      0 Unknown
-       66554 11:55:01 0.00 WRN     1                                0 Unknown
-       66555 11:57:25 0.00 ERR     3 SQL*Plus/ 200:1    2639588629050 APEXBOOK  ADMIN

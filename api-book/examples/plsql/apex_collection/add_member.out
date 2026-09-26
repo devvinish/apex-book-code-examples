@@ -1,9 +1,0 @@
-new member: 2
-exists: yes, members: 4
-
-SEQ_ID C001     C002                      N001   N002 D001
------- -------- ------------------------- ---- ------ -----------
-     1 TNT-1002 Trailblazer 2-Person Tent    1 274.99 14-MAR-2026
-     2 SLP-1002 Nightfall 0° Down Bag        2  389.5 (null)
-     3 KIT-1003 (null)                       4 (null) (null)
-     4 KIT-1008 (null)                       6 (null) (null)

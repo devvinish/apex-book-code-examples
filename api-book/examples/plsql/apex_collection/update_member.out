@@ -1,7 +1,0 @@
-changed: yes
-
-SEQ_ID C001     C002                        C003   N001 D001        CLOB001            MD5
------- -------- ------------------------- ------ ------ ----------- ------------------ -------
-     1 KIT-1003 Titanium Pot 750 ml       (null)      3 (null)      (null)             changed
-     2 SLP-1002 Nightfall 0° Down Bag          2      5 01-APR-2026 Gift wrap, please. changed
-     3 TNT-1002 Trailblazer 2-Person Tent      1 (null) (null)      (null)             same

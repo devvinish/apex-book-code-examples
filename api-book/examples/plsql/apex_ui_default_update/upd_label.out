@@ -1,5 +1,0 @@
-LEAD_ID    Lead ID  report N, align R
-NAME       Name     report Y, align L
-CITY       City     report Y, align L
-SCORE      Score    report Y, align R, help
-CREATED_ON Created  report Y, mask DD-MON-YYYY, align L
