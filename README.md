@@ -39,7 +39,7 @@ git clone https://github.com/devvinish/apex-book-code-examples.git
 
 ## Installing the Sample Schema
 
-Requirements: Oracle APEX 26.1 on Oracle AI Database 26ai (the schema uses the `BOOLEAN` data type and a JSON relational duality view). Chapters 2 to 8 of the book describe the installation.
+Requirements: Oracle APEX 26.1 on Oracle AI Database 26ai (the schema uses the `BOOLEAN` data type and a JSON relational duality view); for Oracle Database 19c, see [On Oracle Database 19c](#on-oracle-database-19c) below. Chapters 2 to 8 of the book describe the installation.
 
 1. Create a schema, for example `ORBIT`, and a workspace that uses it (Chapter 9).
 2. As `SYS`, grant the schema the package that the password checking of Chapter 35 needs:
@@ -58,6 +58,19 @@ Requirements: Oracle APEX 26.1 on Oracle AI Database 26ai (the schema uses the `
    Without SQLcl, upload and run the scripts in **SQL Workshop ▸ SQL Scripts** instead: `01_tables.sql`, `02_logic.sql`, `parts/03_data_part01.sql` to `parts/03_data_part06.sql` in order, then `06_auth.sql` and `07_duality.sql`.
 
 `04_stores.sql` creates the `ORB_STORES` table for readers who skipped the Data Workshop exercise of Chapter 11, and `05_product_images.sql` optionally loads the product images. `uninstall.sql` removes every `ORB_` object.
+
+### On Oracle Database 19c
+
+Oracle Database 19c has no SQL `BOOLEAN` data type and no JSON relational duality views. For 19c, the `_19c` scripts make the yes/no columns (`ORB_SUPPLIERS.IS_ACTIVE`, `ORB_PRODUCTS.IS_ACTIVE`, and `ORB_STORES.FLAGSHIP`) `VARCHAR2(1)` with `'Y'` and `'N'`, as Chapter 12 describes, and leave out the duality view of Chapter 40:
+
+```bash
+cd sql/orbit
+sql orbit@localhost:1521/ORCLPDB1 @install_19c.sql
+```
+
+In **SQL Workshop ▸ SQL Scripts**, run `01_tables_19c.sql`, `02_logic.sql`, `parts/03_data_part01_19c.sql`, `parts/03_data_part02.sql` to `parts/03_data_part06.sql` in order, then `06_auth.sql`. Use `04_stores_19c.sql` instead of `04_stores.sql`.
+
+Where the book shows a `BOOLEAN` column as a switch or check box, set the item's or column's **Data Type** to `VARCHAR2` and its **On Value** and **Off Value** to `Y` and `N`. The finished application `apex/f100.sql` was built on Oracle AI Database 26ai, where these columns are `BOOLEAN`.
 
 The sample data is generated relative to the current date, so the orders always span the two years up to the day you install it. Your numbers therefore differ slightly from the book's screenshots.
 
