@@ -22,6 +22,16 @@ Download it with **Code ▸ Download ZIP**, or clone it:
 git clone https://github.com/devvinish/apex-book-code-examples.git
 ```
 
+## Run Orbit Sales in Three Steps
+
+To see the finished application first, you need only one file, [`apex/f100.sql`](https://github.com/devvinish/apex-book-code-examples/raw/main/apex/f100.sql), and an Oracle APEX workspace: your own, or a free one on [apex.oracle.com](https://apex.oracle.com). The import installs the application **and** its sample data; there are no scripts to run.
+
+1. In **App Builder**, click **Import**, choose `f100.sql`, click **Next**, and then **Import Application**.
+2. On the **Credentials** page, click **Next** (the AI service of Chapter 44 can wait). Then click **Install Supporting Objects**.
+3. Click **Run Application**, and sign in with your workspace user name and password.
+
+The import creates the Orbit Outfitters tables and sample data in your workspace's schema, and makes you the application's administrator. If the schema already has the Orbit tables, from Chapter 12 for example, they stay as they are and only the application is added.
+
 ## Contents
 
 | Folder | Contents |
@@ -34,10 +44,12 @@ git clone https://github.com/devvinish/apex-book-code-examples.git
 | `sql/examples/static` | `orbit.js` and `orbit.css`, the static application files of Chapter 32 |
 | `sql/examples/translations` | The German translation file of Chapter 41 |
 | `sql/examples/data` | `price-update.csv`, the data load file of Chapter 40 |
-| `apex/f100.sql` | An export of the finished Orbit Sales application |
+| `apex/f100.sql` | The finished Orbit Sales application; its import also installs the sample schema |
 | `api-book` | The API Lab and the JavaScript and PL/SQL examples of the second book, *Oracle APEX 26.1 API by Example* |
 
 ## Installing the Sample Schema
+
+To build Orbit Sales yourself as you read, install the sample schema with these scripts, as Chapter 12 describes. (To run the finished application, the [three steps above](#run-orbit-sales-in-three-steps) are enough.)
 
 Requirements: Oracle APEX 26.1 on Oracle AI Database 26ai (the schema uses the `BOOLEAN` data type and a JSON relational duality view); for Oracle Database 19c, see [On Oracle Database 19c](#on-oracle-database-19c) below. Chapters 2 to 8 of the book describe the installation.
 
@@ -78,14 +90,13 @@ The sample data is generated relative to the current date, so the orders always 
 
 ## Importing the Finished Application
 
-`apex/f100.sql` is the Orbit Sales application as it stands at the end of the book. After installing the schema:
+`apex/f100.sql` is the Orbit Sales application as it stands at the end of the book. Its **supporting objects** install everything it needs, so the [three steps above](#run-orbit-sales-in-three-steps) are enough:
 
-1. In **App Builder**, click **Import**, choose `apex/f100.sql`, and click **Next**.
-2. Choose the schema of the sample data as the **Parsing Schema**, choose **Auto Assign New Application ID** if application 100 already exists in your instance, and click **Install Application**.
-3. **Give yourself access before you run the application.** Only users with a role may open it, and an export doesn't carry the users of the original installation (Chapter 36). In the application, open **Shared Components ▸ Application Access Control**, click **Add User Role Assignment**, enter your workspace user name exactly as you sign in, select **Administrator**, and click **Create**.
-4. Run the application and sign in with that workspace user. The application uses **Oracle APEX Accounts**.
+- The tables, triggers, package, views, and sample data of the Orbit Outfitters schema, unless the schema already has them. On Oracle Database 19c, the 19c versions of the scripts (see [On Oracle Database 19c](#on-oracle-database-19c)).
+- The **Administrator** role for you, the developer who imports the application. Every other user of the workspace can open the application too; the administration pages need the Administrator role, which you assign in **Shared Components ▸ Application Access Control**.
+- The users and password checking of Chapter 35, only if the schema may execute `SYS.DBMS_CRYPTO` (often not on hosted APEX). The application doesn't need them.
 
-If you ran the application before step 3 and saw *"You are not authorized to view this application"*, sign out of the application, or open it in a private browser window, after adding the role: APEX keeps the answer of the access check for the whole session, so the role takes effect only in a new session.
+If you skipped **Install Supporting Objects** during the import, install them later: open the application in App Builder, choose **Supporting Objects**, and click **Install Supporting Objects**. If the import offers **Auto Assign New Application ID**, keep it when application 100 already exists in your instance.
 
 Some features need configuration that an application export cannot carry:
 
