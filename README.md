@@ -48,6 +48,8 @@ Requirements: Oracle APEX 26.1 on Oracle AI Database 26ai (the schema uses the `
    grant execute on sys.dbms_crypto to orbit;
    ```
 
+   If you can't run this grant, for example on apex.oracle.com or another hosted APEX service, skip it, and skip `06_auth.sql` below: only Chapter 35 needs it, and the application works without it.
+
 3. Install the schema with SQLcl, connected as the schema owner:
 
    ```bash
@@ -80,7 +82,10 @@ The sample data is generated relative to the current date, so the orders always 
 
 1. In **App Builder**, click **Import**, choose `apex/f100.sql`, and click **Next**.
 2. Choose the schema of the sample data as the **Parsing Schema**, choose **Auto Assign New Application ID** if application 100 already exists in your instance, and click **Install Application**.
-3. Sign in with a user of your workspace. The application uses **Oracle APEX Accounts**.
+3. **Give yourself access before you run the application.** Only users with a role may open it, and an export doesn't carry the users of the original installation (Chapter 36). In the application, open **Shared Components ▸ Application Access Control**, click **Add User Role Assignment**, enter your workspace user name exactly as you sign in, select **Administrator**, and click **Create**.
+4. Run the application and sign in with that workspace user. The application uses **Oracle APEX Accounts**.
+
+If you ran the application before step 3 and saw *"You are not authorized to view this application"*, sign out of the application, or open it in a private browser window, after adding the role: APEX keeps the answer of the access check for the whole session, so the role takes effect only in a new session.
 
 Some features need configuration that an application export cannot carry:
 
