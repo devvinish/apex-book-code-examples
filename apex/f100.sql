@@ -33842,9 +33842,9 @@ wwv_flow_imp.g_varchar2_table(10) := 'end;'||chr(10);
 wwv_flow_imp.g_varchar2_table(11) := '/'||chr(10);
 wwv_flow_imp_shared.create_install(
  p_id=>wwv_flow_imp.id(39911000000000000)
-,p_welcome_message=>'This installs the Orbit Outfitters sample schema of the book Oracle APEX 26.1: The Complete Guide in the parsing schema (tables, triggers, package, views, and sample data), and gives you the Administrator role in the application. If the schema already has the Orbit tables, they are left as they are.'
+,p_welcome_message=>'This installs the Orbit Outfitters sample schema of the book Oracle APEX 26.1: The Complete Guide in the parsing schema (tables, triggers, package, views, and sample data), and gives you the roles of the application. If the schema already has the Orbit tables, they are left as they are.'
 ,p_install_success_message=>'Orbit Sales is ready. Run the application and sign in with your workspace user name and password.'
-,p_install_failure_message=>'Some supporting objects could not be installed. The application can still run if the Orbit tables exist; see the README of github.com/devvinish/apex-book-code-examples.'
+,p_install_failure_message=>'Some supporting objects could not be installed; see the README of the book''s code repository. You can give yourself access in Shared Components > Application Access Control.'
 ,p_deinstall_success_message=>'The Orbit Outfitters sample schema was removed.'
 ,p_deinstall_script_clob=>wwv_flow_imp.varchar2_to_clob(wwv_flow_imp.g_varchar2_table)
 );
@@ -47520,19 +47520,22 @@ end;
 prompt --application/deployment/install/install_access_for_the_installing_developer
 begin
 wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
-wwv_flow_imp.g_varchar2_table(1) := '-- Gives the developer who installs the application the Administrator role.'||chr(10);
+wwv_flow_imp.g_varchar2_table(1) := '-- Gives the developer who installs the application its roles (ADMINISTRATOR).'||chr(10);
 wwv_flow_imp.g_varchar2_table(2) := 'declare'||chr(10);
 wwv_flow_imp.g_varchar2_table(3) := '    l_app  number := wwv_flow_application_install.get_application_id;'||chr(10);
 wwv_flow_imp.g_varchar2_table(4) := '    l_user varchar2(255) := coalesce(sys_context(''APEX$SESSION'', ''APP_USER''), v(''APP_USER''));'||chr(10);
 wwv_flow_imp.g_varchar2_table(5) := 'begin'||chr(10);
-wwv_flow_imp.g_varchar2_table(6) := '    if l_app is not null and l_user is not null and upper(l_user) <> ''NOBODY'''||chr(10);
-wwv_flow_imp.g_varchar2_table(7) := '       and not apex_acl.has_user_role(p_application_id => l_app, p_user_name => l_user,'||chr(10);
-wwv_flow_imp.g_varchar2_table(8) := '                                      p_role_static_id => ''ADMINISTRATOR'') then'||chr(10);
-wwv_flow_imp.g_varchar2_table(9) := '        apex_acl.add_user_role(p_application_id => l_app, p_user_name => l_user,'||chr(10);
-wwv_flow_imp.g_varchar2_table(10) := '                               p_role_static_id => ''ADMINISTRATOR'');'||chr(10);
-wwv_flow_imp.g_varchar2_table(11) := '    end if;'||chr(10);
-wwv_flow_imp.g_varchar2_table(12) := 'end;'||chr(10);
-wwv_flow_imp.g_varchar2_table(13) := '/'||chr(10);
+wwv_flow_imp.g_varchar2_table(6) := '    if l_app is not null and l_user is not null and upper(l_user) <> ''NOBODY'' then'||chr(10);
+wwv_flow_imp.g_varchar2_table(7) := '        for r in (select role_id from apex_appl_acl_roles'||chr(10);
+wwv_flow_imp.g_varchar2_table(8) := '                   where application_id = l_app'||chr(10);
+wwv_flow_imp.g_varchar2_table(9) := '                     and upper(role_static_id) in (''ADMINISTRATOR'')'||chr(10);
+wwv_flow_imp.g_varchar2_table(10) := '                     and role_id not in (select role_id from apex_appl_acl_user_roles'||chr(10);
+wwv_flow_imp.g_varchar2_table(11) := '                                          where application_id = l_app and user_name = upper(l_user))) loop'||chr(10);
+wwv_flow_imp.g_varchar2_table(12) := '            apex_acl.add_user_role(p_application_id => l_app, p_user_name => l_user, p_role_id => r.role_id);'||chr(10);
+wwv_flow_imp.g_varchar2_table(13) := '        end loop;'||chr(10);
+wwv_flow_imp.g_varchar2_table(14) := '    end if;'||chr(10);
+wwv_flow_imp.g_varchar2_table(15) := 'end;'||chr(10);
+wwv_flow_imp.g_varchar2_table(16) := '/'||chr(10);
 wwv_flow_imp_shared.create_install_script(
  p_id=>wwv_flow_imp.id(39911000000000016)
 ,p_install_id=>wwv_flow_imp.id(39911000000000000)

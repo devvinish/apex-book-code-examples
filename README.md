@@ -32,6 +32,10 @@ To see the finished application first, you need only one file, [`apex/f100.sql`]
 
 The import creates the Orbit Outfitters tables and sample data in your workspace's schema, and makes you the application's administrator. If the schema already has the Orbit tables, from Chapter 12 for example, they stay as they are and only the application is added.
 
+**Who may do what.** The import gives you, the developer who imports it, the **Administrator** role: you can view, change, and administer everything. Other users of your workspace can open the application and view the data, but changing data (the Customer form, for example) needs the **Contributor** or **Administrator** role, and the administration pages need **Administrator**. Give roles in the application's **Shared Components ▸ Application Access Control ▸ Add User Role Assignment**.
+
+If a page says *"Insufficient privileges, user is not a Contributor"* or *"You are not authorized to view this application"*, your user has no role in this copy of the application, for example a copy imported by someone else or before this version of `f100.sql`. Add your user name with the **Administrator** role in **Application Access Control**, then sign out of the application and sign in again.
+
 ## Contents
 
 | Folder | Contents |
@@ -93,7 +97,7 @@ The sample data is generated relative to the current date, so the orders always 
 `apex/f100.sql` is the Orbit Sales application as it stands at the end of the book. Its **supporting objects** install everything it needs, so the [three steps above](#run-orbit-sales-in-three-steps) are enough:
 
 - The tables, triggers, package, views, and sample data of the Orbit Outfitters schema, unless the schema already has them. On Oracle Database 19c, the 19c versions of the scripts (see [On Oracle Database 19c](#on-oracle-database-19c)).
-- The **Administrator** role for you, the developer who imports the application. Every other user of the workspace can open the application too; the administration pages need the Administrator role, which you assign in **Shared Components ▸ Application Access Control**.
+- The **Administrator** role for you, the developer who imports the application. Other users of the workspace can open the application and view the data; to change data they need the **Contributor** or **Administrator** role, which you assign in **Shared Components ▸ Application Access Control** (see [Who may do what](#run-orbit-sales-in-three-steps)).
 - The users and password checking of Chapter 35, only if the schema may execute `SYS.DBMS_CRYPTO` (often not on hosted APEX). The application doesn't need them.
 
 The Content Security Policy of Chapter 36 is set as `Content-Security-Policy-Report-Only` in this export: the browser reports violations in its console but blocks nothing, because hosted services such as apex.oracle.com load APEX's own files from another address, which the strict policy would block. To enforce it on your own server, change the header name in **Shared Components ▸ Security Attributes ▸ HTTP Response Headers** to `Content-Security-Policy`.

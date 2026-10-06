@@ -21,6 +21,10 @@ Each example is a `.js` or `.sql` file named after the API it shows, for example
 
 ## Setting Up
 
+**The quickest way:** in **App Builder**, click **Import**, choose `setup/f200.sql`, click **Next** and **Import Application**, click **Next** on the Credentials page, and then **Install Supporting Objects**. The import installs the Orbit Outfitters sample schema in your workspace's schema if it isn't there yet, and gives you the **Administrator** and **Approver** roles of the API Lab. Then click **Run Application** and sign in with your workspace user. (Other users of the workspace can view the API Lab; to change data, they need the **Contributor** or **Administrator** role in **Shared Components ▸ Application Access Control**.)
+
+Or, with SQLcl, as the book's Chapter 2 describes:
+
 1. Install the ORBIT sample schema as the [main README](../README.md#installing-the-sample-schema) describes.
 2. Connected as the schema owner, run the API Lab script from the `setup` folder:
 
