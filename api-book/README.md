@@ -1,5 +1,8 @@
 # Oracle APEX 26.1 API by Example — Code Examples
 
+> [!IMPORTANT]
+> **Updated October 2026:** `setup/f200.sql` now installs the API Lab, the sample data, and your access in one import. If an earlier download gave you "not authorized" or unstyled pages, download it again and see [Setting Up](#setting-up).
+
 The API Lab application and every example of the book **Oracle APEX 26.1 API by Example: JavaScript and PL/SQL Built-ins with Practical Examples** by Vinish Kapoor: a runnable example, with its real output, for every method and event of the Oracle APEX 26.1 JavaScript API and every procedure and function of its PL/SQL packages — 518 files in all.
 
 - 📘 **About the book, sample pages, and contents:** [vinish.dev/oracle-apex-26-api-by-example-book](https://vinish.dev/oracle-apex-26-api-by-example-book)
