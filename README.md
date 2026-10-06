@@ -96,6 +96,8 @@ The sample data is generated relative to the current date, so the orders always 
 - The **Administrator** role for you, the developer who imports the application. Every other user of the workspace can open the application too; the administration pages need the Administrator role, which you assign in **Shared Components ▸ Application Access Control**.
 - The users and password checking of Chapter 35, only if the schema may execute `SYS.DBMS_CRYPTO` (often not on hosted APEX). The application doesn't need them.
 
+The Content Security Policy of Chapter 36 is set as `Content-Security-Policy-Report-Only` in this export: the browser reports violations in its console but blocks nothing, because hosted services such as apex.oracle.com load APEX's own files from another address, which the strict policy would block. To enforce it on your own server, change the header name in **Shared Components ▸ Security Attributes ▸ HTTP Response Headers** to `Content-Security-Policy`.
+
 If you skipped **Install Supporting Objects** during the import, install them later: open the application in App Builder, choose **Supporting Objects**, and click **Install Supporting Objects**. If the import offers **Auto Assign New Application ID**, keep it when application 100 already exists in your instance.
 
 Some features need configuration that an application export cannot carry:

@@ -113,7 +113,7 @@ wwv_imp_workspace.create_flow(
 ,p_flow_status=>'AVAILABLE_W_EDIT_LINK'
 ,p_browser_cache=>'N'
 ,p_browser_frame=>'D'
-,p_http_response_headers=>'Content-Security-Policy: default-src ''self'' #APEX_CSP_NONCE#; script-src ''self'' #APEX_CSP_NONCE# ''wasm-unsafe-eval''; connect-src ''self'' https://elocation.oracle.com; img-src ''self'' data: blob: https://elocation.oracle.com; font-src ''self'' data:; work'
+,p_http_response_headers=>'Content-Security-Policy-Report-Only: default-src ''self'' #APEX_CSP_NONCE#; script-src ''self'' #APEX_CSP_NONCE# ''wasm-unsafe-eval''; connect-src ''self'' https://elocation.oracle.com; img-src ''self'' data: blob: https://elocation.oracle.com; font-src ''self'' data:; work'
 ||'er-src ''self'' blob:; object-src ''none''; frame-ancestors ''self'';'
 ,p_runtime_api_usage=>'T'
 ,p_security_scheme=>wwv_flow_imp.id(36565838985015172)
