@@ -1,5 +1,8 @@
 # Oracle APEX 26.1: The Complete Guide — Code Examples
 
+> [!IMPORTANT]
+> **Updated October 2026:** `apex/f100.sql` now installs the app, its data, and your access in one import. If an earlier download gave you "not authorized" or unstyled pages, download it again and see [Run Orbit Sales in Three Steps](#run-orbit-sales-in-three-steps).
+
 The scripts, data files, and code examples of the book **Oracle APEX 26.1: The Complete Guide** by Vinish Kapoor.
 
 <a href="https://vinish.dev/oracle-apex-26-1-book-the-complete-guide"><img src="https://vinish.dev/wp-content/uploads/2026/09/apex-book-cover.webp" alt="Cover of Oracle APEX 26.1: The Complete Guide by Vinish Kapoor" width="220" align="right"></a>
